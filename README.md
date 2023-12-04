@@ -6,15 +6,13 @@
 [![Ashkan Poyber](https://img.shields.io/badge/Ashkan-Poyber-e4181c.svg?labelColor=0000ff)](#)
 [![Made in Iran](https://img.shields.io/badge/made_in-iran-ffd700.svg?labelColor=0057b7)](https://github.com/AshkanPoyber)
 [![Release](https://img.shields.io/github/release/AshkanPoyber/PoyLearn.svg)](https://github.com/AshkanPoyber/PoyLearn/releases)
-[![Downloads](https://img.shields.io/github/downloads/AshkanPoyber/PoyLearn/total.svg)](https://github.com/AshkanPoyber/PoyLearn/releases)
-[![Discord](https://img.shields.io/discord/796419830819061800?label=discord)](https://discord.gg/yPWu7F7Gxb)
-[![Donate](https://img.shields.io/badge/donate-$$$-8a2be2.svg)](#) 
+
 
 
 # AshkanPoyber | AboutMe
-🛑 Please Pay Attention , This Single Page Website Is Designed To Showcase My Experiences And Talents. If You're Looking For My Other Projects Then [Click Here!](https://github.com/AshkanPoyber?tab=repositories)
+🛑 Please Pay Attention , This Single Page Website ( Portfolio ) Is Designed To Showcase My Experiences And Talents. If You're Looking For My Other Projects Then [Click Here!](https://github.com/AshkanPoyber?tab=repositories)
 
 
 # Notice 
-🎊 You Can Visit This Web Page With Click Or Search This Link 
+🎊 You Can Visit This Web Page ( Portfolio ) With Click Or Search This Link 
 https://AshkanPoyber.github.io
