@@ -19,4 +19,4 @@
 https://AshkanPoyber.github.io
 
 
-![Screenshot](Screenshots/screenshot.png)
+![Screenshot](Screenshots/ss1.png)
