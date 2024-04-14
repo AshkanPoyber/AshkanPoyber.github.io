@@ -19,4 +19,4 @@
 https://AshkanPoyber.github.io
 
 # ScreenShots
-![Screenshot](Screenshots/ss1.png)
+![Screenshot](Screenshots/ss1.png){width=50%}
