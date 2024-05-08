@@ -9,7 +9,7 @@
 <a href="https://www.youtube.com/AcerMRD"><img src="https://img.shields.io/badge/YouTube-Channel-FF3333.svg?logo=youtube&logoColor=FF3333"></a>
 [![Release](https://img.shields.io/github/release/AshkanPoyber/PoyLearn.svg)](https://github.com/AshkanPoyber/PoyLearn/releases)
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://camo.githubusercontent.com/4dc0fe2eed91de66e49f7cbf4ea75d6e376dad47c228653dc447f322411dfb23/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="1000">
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> AshkanPoyber | AboutMe
 🛑 Please Pay Attention , This Single Page Website ( Portfolio ) Is Designed To Showcase My Experiences And Talents. If You're Looking For My Other Projects Then [Click Here!](https://github.com/AshkanPoyber?tab=repositories)
