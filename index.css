@@ -83,8 +83,6 @@ section {
 .home-img img {
   width: 35vw;
   animation: floatImage 4s ease-in-out infinite;
-  border-style: inherit;
-  border-color: var(--main-color);
 }
 
 @keyframes floatImage {
@@ -170,6 +168,7 @@ span {
 
 .about-img img {
   width: 35vw;
+  /* animation: floatImage 4s ease-in-out infinite; */
 }
 
 .heading {
