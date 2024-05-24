@@ -359,6 +359,7 @@ span {
   flex-wrap: wrap;
   padding: 2rem 9%;
   background: var(--second-bg-color);
+  box-shadow: 5px 5px 50px var(--main-color);
 }
 
 .footer-text p {
