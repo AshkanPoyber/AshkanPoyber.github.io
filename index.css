@@ -234,10 +234,6 @@ span {
   margin: 1rem 0 3rem;
 }
 
-h3 {
-  text-shadow: 8px 10px 5px black;
-}
-
 .portfolio {
   background: var(--second-bg-color);
 }
