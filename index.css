@@ -63,7 +63,6 @@ section {
   color: var(--text-color);
   margin-left: 4rem;
   transition: 0.5s;
-  box-shadow: var(--main-color);
 }
 
 .navbar a:hover,
