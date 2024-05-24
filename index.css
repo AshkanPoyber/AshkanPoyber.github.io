@@ -52,6 +52,10 @@ section {
   border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
 }
 
+.header .a {
+  text-shadow: 10px 10px var(--main-color);
+}
+
 .logo {
   font-size: 2.5rem;
   color: var(--text-color);
