@@ -30,8 +30,10 @@ https://AshkanPoyber.github.io
 <br>
 💢 Find Best Website To Support New And Beautiful Icons For Some Sections ~ Of Course In Home Section
 <br>
-💢
+💢 Coding & Enjoy It :)
 <br>
+💢 **Wait For Next And Big Update => Enable Light Mode & Dark Mode And Add Progress Bar For Show My Talent's Progress 👌**
+
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> Known Issue's
  It Is Final Version , Then Its Not Getting So Problems. But If You Encounter Any Problem , Let Me Know By Sending An Email<a href = "mailto:AshkanDalili1381@gmail.com"> <img src="https://skillicons.dev/icons?i=gmail" height="40" width="60" alt="gmail logo"></a>
@@ -40,7 +42,7 @@ https://AshkanPoyber.github.io
 ![Screenshot](Screenshots/screenshot.png)
 🎊 You Can Visit This Web Page ( Portfolio ) With Click Or Search This Link https://AshkanPoyber.github.io
 
-**Wait For Next And Big Update => Enable Light Mode 👌**
+
 
 
 <p align="center">
