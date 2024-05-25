@@ -26,6 +26,10 @@ https://AshkanPoyber.github.io
 <br>
 💢 An Overview Of The Psychology Of Color
 <br>
+💢 Design And Choose Picture For Related Sections ( Home & About Section )
+<br>
+💢 Find Best Website To Support New And Beautiful Icons For Some Sections ~ Of Course In Home Section
+<br>
 💢
 <br>
 
