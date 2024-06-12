@@ -277,6 +277,8 @@ span {
 .portfolio-box img {
   width: 100%;
   transition: 0.5s ease;
+  border-style: inherit;
+  border-color: var(--main-color);
 }
 
 .portfolio-box:hover img {
