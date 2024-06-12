@@ -289,6 +289,7 @@ span {
   align-items: center;
   padding: 0 10px;
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .skill-left .skill-bar .bar {
@@ -431,7 +432,7 @@ small {
 
 big {
   font-size: 1.8rem;
-  font-weight: 10000;
+  font-weight: 600;
 }
 
 .box .text big {
