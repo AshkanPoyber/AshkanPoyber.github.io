@@ -303,9 +303,27 @@ span {
   animation: html 2s;
 }
 
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 72%;
+  }
+}
+
 .skill-bar .bar .figma {
   width: 90%;
   animation: figma 3s;
+}
+
+@keyframes figma {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
 }
 
 .skill-bar .bar .javascript {
@@ -313,9 +331,27 @@ span {
   animation: javascript 4s;
 }
 
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
 .skill-bar .bar .css {
   width: 62%;
   animation: css 5s;
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 62%;
+  }
 }
 
 .portfolio {
