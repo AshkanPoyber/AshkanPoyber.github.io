@@ -256,7 +256,7 @@ span {
 }
 
 .portfolio {
-  background: var(--second-bg-color);
+  background: var(--bg-color);
 }
 
 .portfolio h2 {
@@ -333,6 +333,10 @@ span {
   color: var(--second-bg-color);
 }
 
+.contact {
+  background: var(--second-bg-color);
+}
+
 .contact h2 {
   margin-bottom: 3rem;
 }
@@ -356,7 +360,7 @@ span {
   padding: 1.5rem;
   font-size: 1.6rem;
   color: var(--text-color);
-  background: var(--second-bg-color);
+  background: var(--bg-color);
   border-radius: 0.8rem;
   margin: 0.7rem 0;
   box-shadow: 0 0 1rem var(--main-color);
@@ -382,7 +386,7 @@ span {
   align-items: center;
   flex-wrap: wrap;
   padding: 2rem 9%;
-  background: var(--second-bg-color);
+  background: var(--bg-color);
   box-shadow: 5px 5px 50px var(--main-color);
 }
 
