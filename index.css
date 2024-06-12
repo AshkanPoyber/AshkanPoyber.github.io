@@ -285,6 +285,14 @@ span {
   background-color: var(--bg-color);
   border-radius: 25px;
   margin-top: 10px;
+  position: relative;
+}
+
+.skill-bar .bar span {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
 }
 
 .portfolio {
