@@ -263,6 +263,10 @@ span {
   grid-column-gap: 50px;
 }
 
+.skill-bar {
+  margin-bottom: 2.3rem;
+}
+
 .portfolio {
   background: var(--bg-color);
 }
