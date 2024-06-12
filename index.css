@@ -293,6 +293,12 @@ span {
   height: 100%;
   position: absolute;
   left: 0;
+  background: var(--main-color);
+  border-radius: 25px;
+  box-shadow: 0 0 25px var(--main-color);
+}
+
+.skill-bar .bar .html {
 }
 
 .portfolio {
