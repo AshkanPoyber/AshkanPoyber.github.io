@@ -65,4 +65,8 @@ const typed = new Typed(".multiple-text", {
 
 /*================================ Circle Skill =====================*/
 const circles = document.querySelectorAll(".circle");
-circles.forEach();
+circles.forEach((elem) => {
+  var dots = elem.getAttribute("data.dots");
+  var marked = elem.getAttribute("data.percent");
+  var percent = Math.floor((dots * marked) / 100);
+});
