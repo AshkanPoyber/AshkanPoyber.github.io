@@ -45,7 +45,6 @@ section {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  backdrop-filter: blur(10px);
 }
 
 .header .sticky {
