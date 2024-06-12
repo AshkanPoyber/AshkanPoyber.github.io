@@ -267,8 +267,9 @@ span {
   margin-bottom: 2.3rem;
 }
 
-.skill-main h3 {
+.skill-main h1 {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .portfolio {
