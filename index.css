@@ -394,6 +394,15 @@ span {
   border: 2px solid #fff;
 }
 
+.circle .points {
+  width: 2px;
+  height: 10px;
+  background-color: var(--bg-color);
+  position: absolute;
+  border-radius: 3px;
+  transform: rotate(calc(var(--i) * 120deg)) translateY(-45px);
+}
+
 .portfolio {
   background: var(--bg-color);
 }
