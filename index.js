@@ -64,3 +64,5 @@ const typed = new Typed(".multiple-text", {
 });
 
 /*================================ Circle Skill =====================*/
+const circles = document.querySelectorAll(".circle");
+circles.forEach();
