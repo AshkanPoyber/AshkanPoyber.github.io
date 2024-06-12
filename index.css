@@ -354,6 +354,16 @@ span {
   }
 }
 
+.professional {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box {
+  margin: 10px 0;
+  flex: 0 0 15rem;
+}
+
 .portfolio {
   background: var(--bg-color);
 }
