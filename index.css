@@ -45,7 +45,7 @@ section {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  /* box-shadow: 5px 5px 20px var(--main-color); */
+  backdrop-filter: blur(10px);
 }
 
 .header .sticky {
@@ -184,6 +184,7 @@ span {
   animation: floatImage 4s ease-in-out infinite;
   border-radius: 50%;
   box-shadow: 0 0 25px var(--main-color);
+  transition: 0.4s ease-in-out;
 }
 
 .about-img img:hover {
