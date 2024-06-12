@@ -299,6 +299,23 @@ span {
 }
 
 .skill-bar .bar .html {
+  width: 72%;
+  animation: html 2s;
+}
+
+.skill-bar .bar .figma {
+  width: 90%;
+  animation: figma 3s;
+}
+
+.skill-bar .bar .javascript {
+  width: 80%;
+  animation: javascript 4s;
+}
+
+.skill-bar .bar .css {
+  width: 62%;
+  animation: css 5s;
 }
 
 .portfolio {
