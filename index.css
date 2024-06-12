@@ -401,8 +401,6 @@ span {
   position: absolute;
   border-radius: 3px;
   transform: rotate(calc(var(--i) * var(--rot))) translateY(-45px);
-  animation: glow 0.4s linear forwards;
-  animation-delay: calc(var(--i) * 0.05s);
 }
 
 @keyframes glow {
@@ -414,6 +412,11 @@ span {
     background: var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
   }
+}
+
+.points.marked {
+  animation: glow 0.4s linear forwards;
+  animation-delay: calc(var(--i) * 0.05s);
 }
 
 .portfolio {
