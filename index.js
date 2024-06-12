@@ -87,9 +87,9 @@ circles.forEach((elem) => {
   }
 });
 
-ocument.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   const observerOptions = {
-    threshold: 0.1, // Trigger when 10% of the element is visible
+    threshold: 0.1,
   };
 
   const skillBars = document.querySelectorAll(".skill-bar .bar span");
@@ -97,7 +97,7 @@ ocument.addEventListener("DOMContentLoaded", function () {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.style.animation = "none";
-        entry.target.offsetHeight; // Trigger reflow
+        entry.target.offsetHeight;
         entry.target.style.animation = null;
       }
     });
