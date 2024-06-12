@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
     threshold: 0.1,
   };
 
-  const skillBars = document.querySelectorAll(".skill-bar .bar span");
+  const skillBars = document.querySelectorAll(".skill-bar .bar span ");
   const observer = new IntersectionObserver(function (entries, observer) {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
