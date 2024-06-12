@@ -382,6 +382,20 @@ span {
   }
 }
 
+.skill-bar .bar .csharp {
+  width: 32%;
+  animation: csharp 5s;
+}
+
+@keyframes csharp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 32%;
+  }
+}
+
 .professional {
   display: grid;
   grid-template-columns: 1fr 1fr;
