@@ -356,7 +356,7 @@ span {
   border-radius: 0.8rem;
   margin: 0.7rem 0;
 
-  border: 0.2rem solid var(--main-color);
+  border: 0.1rem solid var(--main-color);
 }
 
 .contact form .input-box input {
