@@ -69,7 +69,7 @@ section {
 .navbar a:hover,
 .navbar a.active {
   color: var(--main-color);
-  border-bottom: 3px solid var(--main-color);
+  border-bottom: 1px solid var(--main-color);
 }
 
 #menu-icon {
