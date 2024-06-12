@@ -401,6 +401,7 @@ span {
   position: absolute;
   border-radius: 3px;
   transform: rotate(calc(var(--i) * 120deg)) translateY(-45px);
+  animation: glow 0.4s linear forwards;
 }
 
 .portfolio {
