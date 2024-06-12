@@ -299,7 +299,7 @@ span {
 }
 
 .skill-bar .bar .html {
-  width: 72%;
+  width: 95%;
   animation: html 5s;
 }
 
@@ -327,7 +327,7 @@ span {
 }
 
 .skill-bar .bar .javascript {
-  width: 80%;
+  width: 70%;
   animation: javascript 5s;
 }
 
@@ -341,7 +341,7 @@ span {
 }
 
 .skill-bar .bar .php {
-  width: 62%;
+  width: 63%;
   animation: php 5s;
 }
 
@@ -355,7 +355,7 @@ span {
 }
 
 .skill-bar .bar .sql {
-  width: 62%;
+  width: 76%;
   animation: sql 5s;
 }
 
@@ -369,7 +369,7 @@ span {
 }
 
 .skill-bar .bar .react {
-  width: 62%;
+  width: 20%;
   animation: react 5s;
 }
 
