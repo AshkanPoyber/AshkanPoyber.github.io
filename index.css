@@ -355,8 +355,18 @@ span {
   background: var(--second-bg-color);
   border-radius: 0.8rem;
   margin: 0.7rem 0;
-  /* box-shadow: 0 0 1rem var(--main-color);
-  border: 0.1rem solid var(--main-color); */
+  /* box-shadow: 0 0 1rem var(--main-color); */
+  border: 0.1rem solid var(--main-color);
+}
+
+.form:hover {
+  box-shadow: 0 0 10px var(--main-color);
+  transition: 0.4s ease-in-out;
+}
+
+textarea:hover {
+  box-shadow: 0 0 10px var(--main-color);
+  transition: 0.4s ease-in-out;
 }
 
 .contact form .input-box input {
