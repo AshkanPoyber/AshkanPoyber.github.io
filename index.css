@@ -270,6 +270,7 @@ span {
 .skill-main h3 {
   margin-bottom: 2rem;
   text-align: center;
+  font-size: 2.6rem;
 }
 
 .skill-left .skill-bar .info {
@@ -460,6 +461,21 @@ span {
   animation-delay: calc(var(--i) * 0.05s);
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  .skill-main {
+    grid-template-columns: 1fr;
+  }
+
+  .professional {
+    grid-template-columns: 1fr;
+  }
+
+  .box {
+    margin: 20px 0;
+  }
+}
+
 .portfolio {
   background: var(--bg-color);
 }
@@ -635,6 +651,10 @@ span {
   }
 
   .services {
+    padding-bottom: 7rem;
+  }
+
+  .skills {
     padding-bottom: 7rem;
   }
 
