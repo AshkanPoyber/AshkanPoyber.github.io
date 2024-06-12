@@ -86,3 +86,24 @@ circles.forEach((elem) => {
     pointsMarked[i].classList.add("marked");
   }
 });
+
+ocument.addEventListener("DOMContentLoaded", function () {
+  const observerOptions = {
+    threshold: 0.1, // Trigger when 10% of the element is visible
+  };
+
+  const skillBars = document.querySelectorAll(".skill-bar .bar span");
+  const observer = new IntersectionObserver(function (entries, observer) {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.style.animation = "none";
+        entry.target.offsetHeight; // Trigger reflow
+        entry.target.style.animation = null;
+      }
+    });
+  }, observerOptions);
+
+  skillBars.forEach((bar) => {
+    observer.observe(bar);
+  });
+});
