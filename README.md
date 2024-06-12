@@ -28,6 +28,18 @@ https://AshkanPoyber.github.io
 <br>
 💢 Design And Choose Picture For Related Sections ( Home & About Section )
 <br>
+💢 Add Home Page
+<br>
+💢 Add About Page
+<br>
+💢 Add Services Page
+<br>
+💢 Add Skills Page
+<br>
+💢 Add Portfolio Page
+<br>
+💢 Add Contact Page
+<br>
 💢 Find Best Website To Support New And Beautiful Icons For Some Sections ~ Of Course In Home Section
 <br>
 💢 Responsive
