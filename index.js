@@ -73,6 +73,7 @@ circles.forEach((elem) => {
   var rotate = 360 / dots;
 
   for (let i = 0; i < dots; i++) {
-    points += `<div class="points" style="--i: 1"></div>`;
+    points += `<div class="points" style="--i:${i}; --rot:${rotate}deg"></div>`;
   }
+  elem.innerHTML = points;
 });
