@@ -251,6 +251,10 @@ span {
   margin: 1rem 0 3rem;
 }
 
+.skills {
+  background: var(--second-bg-color);
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
