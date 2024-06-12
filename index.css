@@ -420,14 +420,14 @@ small {
 }
 
 big {
-  font-size: 15px;
+  font-size: 1.8rem;
+  font-weight: 10000;
 }
 
 .box .text big {
-  font: 400;
   letter-spacing: 1px;
   position: absolute;
-  top: 40%;
+  top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
