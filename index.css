@@ -278,6 +278,7 @@ span {
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
+  font-size: 1.5rem;
 }
 
 .skill-left .skill-bar .bar {
@@ -412,6 +413,14 @@ span {
   text-align: center;
   color: #fff;
   font-size: 1rem;
+}
+
+small {
+  font-size: 1.2rem;
+}
+
+big {
+  font-size: 1.2rem;
 }
 
 .box .text big {
