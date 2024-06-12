@@ -404,6 +404,17 @@ span {
   animation: glow 0.4s linear forwards;
 }
 
+@keyframes glow {
+  0% {
+    background: var(--bg-color);
+    box-shadow: none;
+  }
+  100% {
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+  }
+}
+
 .portfolio {
   background: var(--bg-color);
 }
