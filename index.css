@@ -516,6 +516,13 @@ big {
   position: relative;
 }
 
+.timeline-items::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
