@@ -604,6 +604,11 @@ big {
   background-color: var(--main-color);
 }
 
+::-webkit-scrollbar-track {
+  background-color: var(--bg-color);
+  width: 50px;
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
