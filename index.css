@@ -500,6 +500,10 @@ big {
   background: var(--bg-color);
 }
 
+.education h2 {
+  margin-bottom: 4rem;
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
