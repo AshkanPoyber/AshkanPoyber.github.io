@@ -531,6 +531,10 @@ big {
   position: relative;
 }
 
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
