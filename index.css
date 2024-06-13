@@ -596,6 +596,10 @@ big {
   line-height: 22px;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
