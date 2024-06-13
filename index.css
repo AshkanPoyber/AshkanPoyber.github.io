@@ -572,6 +572,11 @@ big {
   transition: 0.3s ease-in-out;
 }
 
+.timeline-content:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px var(--main-color);
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
