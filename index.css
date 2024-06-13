@@ -555,6 +555,12 @@ big {
   top: 10px;
 }
 
+.timeline-date {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
