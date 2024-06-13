@@ -568,6 +568,8 @@ big {
   padding: 30px 50px;
   border-radius: 4rem;
   box-shadow: 0 0 10px var(--main-color);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 .portfolio {
