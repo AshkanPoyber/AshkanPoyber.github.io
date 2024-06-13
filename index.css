@@ -535,6 +535,10 @@ big {
   margin-bottom: 0;
 }
 
+.timeline-item:nth-child(odd) {
+  padding-right: calc(50% + 30px);
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
