@@ -566,6 +566,8 @@ big {
   background-color: var(--bg-color);
   border: 3px solid var(--main-color);
   padding: 30px 50px;
+  border-radius: 4rem;
+  box-shadow: 0 0 10px var(--main-color);
 }
 
 .portfolio {
