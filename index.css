@@ -589,6 +589,13 @@ big {
   font-weight: 500;
 }
 
+.timeline-content p {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
