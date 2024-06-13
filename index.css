@@ -496,8 +496,12 @@ big {
   }
 }
 
-.portfolio {
+.education {
   background: var(--bg-color);
+}
+
+.portfolio {
+  background: var(--second-bg-color);
 }
 
 .portfolio h2 {
@@ -575,7 +579,7 @@ big {
 }
 
 .contact {
-  background: var(--second-bg-color);
+  background: var(--bg-color);
 }
 
 .contact h2 {
@@ -601,7 +605,7 @@ big {
   padding: 1.5rem;
   font-size: 1.6rem;
   color: var(--text-color);
-  background: var(--bg-color);
+  background: var(--second-bg-color);
   border-radius: 0.8rem;
   margin: 0.7rem 0;
   box-shadow: 0 0 1rem var(--main-color);
