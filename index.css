@@ -562,6 +562,10 @@ big {
   margin: 6px 0 15px;
 }
 
+.timeline-content {
+  background-color: var(--bg-color);
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
