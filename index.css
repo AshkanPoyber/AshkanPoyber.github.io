@@ -544,6 +544,11 @@ big {
   padding-left: calc(50% + 30px);
 }
 
+.timeline-dot {
+  height: 21px;
+  width: 21px;
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
