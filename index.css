@@ -525,6 +525,12 @@ big {
   left: calc(50% - 1px);
 }
 
+.timeline-item {
+  margin-bottom: 40px;
+  width: 100%;
+  position: relative;
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
