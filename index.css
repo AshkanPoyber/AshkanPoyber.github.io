@@ -600,6 +600,10 @@ big {
   width: 15px;
 }
 
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
