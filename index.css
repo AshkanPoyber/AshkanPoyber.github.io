@@ -521,6 +521,8 @@ big {
   position: absolute;
   width: 5px;
   height: 100%;
+  background-color: var(--main-color);
+  left: calc(50% - 1px);
 }
 
 .portfolio {
