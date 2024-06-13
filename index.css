@@ -265,6 +265,10 @@ span {
   background: var(--second-bg-color);
 }
 
+.skills h2 {
+  margin-bottom: 4rem;
+}
+
 .skill-main {
   width: 100%;
   display: grid;
