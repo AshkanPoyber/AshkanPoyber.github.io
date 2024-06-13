@@ -36,6 +36,8 @@ https://AshkanPoyber.github.io
 <br>
 💢 Add Skills Page
 <br>
+💢 Add Educations Page
+<br>
 💢 Add Portfolio Page
 <br>
 💢 Add Contact Page
