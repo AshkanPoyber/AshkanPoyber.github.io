@@ -508,6 +508,12 @@ big {
   margin-bottom: 4rem;
 }
 
+.timeline-items {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
