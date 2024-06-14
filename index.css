@@ -620,6 +620,10 @@ big {
     left: 20px;
   }
 
+  .education h2 {
+    font-size: 33px;
+  }
+
   .timeline-item {
     padding-left: 50px !important;
     padding-right: 20px !important;
