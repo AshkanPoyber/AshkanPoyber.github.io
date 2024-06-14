@@ -87,6 +87,7 @@ circles.forEach((elem) => {
   }
 });
 
+/*================================ For Skills Left Section Animation Reset =====================*/
 document.addEventListener("DOMContentLoaded", function () {
   const observerOptions = {
     threshold: 0.1,
