@@ -51,9 +51,12 @@ ScrollReveal().reveal(
   ".home-img, .services-container, .portfolio-box, .contact form",
   { origin: "bottom" }
 );
-ScrollReveal().reveal(".home-content h1, .skill-left, .about-img", {
-  origin: "left",
-});
+ScrollReveal().reveal(
+  ".home-content h1, .skill-left, .about-img, .timeline-items",
+  {
+    origin: "left",
+  }
+);
 ScrollReveal().reveal(".home-content p, .skill-right, .about-content", {
   origin: "right",
 });
