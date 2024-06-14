@@ -614,6 +614,32 @@ big {
   width: 50px;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  .timeline-items::before {
+    left: 20px;
+  }
+
+  .timeline-item {
+    padding-left: 50px !important;
+    padding-right: 20px !important;
+    text-align: left !important;
+  }
+
+  .timeline-dot {
+    left: 10px !important;
+  }
+
+  .timeline-date {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .timeline-content {
+    padding: 20px 30px;
+  }
+}
+
 .portfolio {
   background: var(--second-bg-color);
 }
