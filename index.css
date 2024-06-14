@@ -118,7 +118,7 @@ section {
     transform: translateY(-2.4rem);
   }
   100% {
-    transform: translateY();
+    transform: translateY(0);
   }
 }
 
