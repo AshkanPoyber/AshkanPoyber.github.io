@@ -499,21 +499,6 @@ big {
   animation-delay: calc(var(--i) * 0.05s);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .skill-main {
-    grid-template-columns: 1fr;
-  }
-
-  .professional {
-    grid-template-columns: 1fr;
-  }
-
-  .box {
-    margin: 20px 0;
-  }
-}
-
 /* Education Section Design */
 .education {
   background: var(--bg-color);
@@ -821,6 +806,21 @@ big {
 .footer-iconTop a i {
   font-size: 2.4rem;
   color: var(--second-bg-color);
+}
+
+/* Responsive Design For Skills Section */
+@media (max-width: 768px) {
+  .skill-main {
+    grid-template-columns: 1fr;
+  }
+
+  .professional {
+    grid-template-columns: 1fr;
+  }
+
+  .box {
+    margin: 20px 0;
+  }
 }
 
 /* BREAKPOINTS */
