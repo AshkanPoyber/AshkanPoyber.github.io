@@ -110,9 +110,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 /*================================ Activate Light & Dark Mode =====================*/
-const themeToggle = document.getElementById("theme-toggle");
-const root = document.documentElement;
+// const themeToggle = document.getElementById("theme-toggle");
+// const root = document.documentElement;
 
-themeToggle.addEventListener("click", function () {
-  root.classList.toggle("dark-mode");
-});
+// themeToggle.addEventListener("click", function () {
+//   root.classList.toggle("dark-mode");
+// });
