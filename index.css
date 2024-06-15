@@ -823,7 +823,7 @@ big {
   }
 }
 
-/* BREAKPOINTS */
+/* Responsive Design For Header ~ About ~ Services ~ Portfolio ~ Contact Section's */
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
