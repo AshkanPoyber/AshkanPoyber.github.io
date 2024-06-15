@@ -849,7 +849,7 @@ big {
   }
 }
 
-/* Responsive Design For Header ~ About ~ Services ~ Portfolio ~ Contact ~ Footer Section's */
+/* Responsive Design For Header ~ Dark&Light Mode Button ~ About ~ Services ~ Portfolio ~ Contact ~ Footer Section's */
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
