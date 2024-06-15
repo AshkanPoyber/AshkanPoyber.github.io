@@ -190,6 +190,8 @@ span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  width: 4rem;
+  height: 4rem;
   position: fixed;
   top: 20px;
   right: 20px;
