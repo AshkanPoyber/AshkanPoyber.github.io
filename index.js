@@ -108,3 +108,11 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(bar);
   });
 });
+
+/*================================ CSS for the toggle button =====================*/
+const themeToggle = document.getElementById("theme-toggle");
+const root = document.documentElement;
+
+themeToggle.addEventListener("click", function () {
+  root.classList.toggle("dark-mode");
+});
