@@ -1180,7 +1180,6 @@ body {
 
 .footer-iconTop a {
   background: var(--main-color);
-  box-shadow: 0 0 1rem var(--main-color);
 }
 
 .footer-iconTop a:hover {
