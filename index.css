@@ -207,14 +207,15 @@ span {
 
 #theme-toggle:hover {
   background: var(--main-color);
+  color: var(--second-bg-color);
+  box-shadow: 0 0 1rem var(--main-color);
 
-  background-color: var(--main-color-light);
   display: inline-block;
   padding: 1rem 2.8rem;
   border-radius: 4rem;
-  box-shadow: 0 0 1rem var(--main-color);
+
   font-size: 1.6rem;
-  color: var(--second-bg-color);
+
   letter-spacing: 0.1rem;
   font-weight: 600;
   transition: 0.5s ease;
