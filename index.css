@@ -1106,6 +1106,14 @@ body {
   color: #000000;
 }
 
+.timeline-content p {
+  color: #000000;
+}
+
+.timeline-content span {
+  color: #fff;
+}
+
 .timeline-item:nth-child(odd) {
   padding-right: calc(50% + 30px);
   text-align: right;
