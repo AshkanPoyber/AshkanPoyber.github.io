@@ -187,17 +187,20 @@ span {
 
 /* Button For Activate Dark & Light Mode */
 #theme-toggle {
+  display: inline-flex;
+  justify-content: center;
   position: fixed;
   top: 20px;
   right: 20px;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: var(--main-color);
-  color: var(--second-bg-color);
+  background-color: transparent;
+  color: var(--main-color);
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   cursor: pointer;
-  z-index: 9999;
+  transition: 0.5s ease;
+  /* z-index: 9999; */
 }
 
 #theme-toggle:hover {
