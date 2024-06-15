@@ -1119,3 +1119,22 @@ body {
   box-shadow: 0 0 1rem var(--main-color);
 }
  */
+
+/* CSS for the toggle button */
+#theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: var(--main-color); /* Color for the button */
+  color: var(--second-bg-color); /* Text color for the button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 9999; /* Ensure it's above other content */
+}
+
+#theme-toggle:hover {
+  background-color: var(--main-color-light); /* Lighter shade on hover */
+}
