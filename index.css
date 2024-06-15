@@ -56,7 +56,7 @@ section {
   font-size: 2.5rem;
   color: var(--text-color);
   font-weight: 600;
-  cursor: default;
+  cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 
