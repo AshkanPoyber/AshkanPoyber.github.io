@@ -196,10 +196,10 @@ span {
   border-radius: 50%;
   font-size: 2rem;
   color: var(--main-color);
+  margin: 3rem 1.5rem 3rem 0;
   position: fixed;
   top: 20px;
   right: 20px;
-  padding: 10px 20px;
   background-color: transparent;
   cursor: pointer;
   transition: 0.5s ease;
