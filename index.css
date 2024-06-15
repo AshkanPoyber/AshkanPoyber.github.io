@@ -1103,6 +1103,10 @@ body {
   background: var(--bg-color);
 }
 
+.timeline-content h3 {
+  color: #000000;
+}
+
 .timeline-date {
   color: #000000;
 }
