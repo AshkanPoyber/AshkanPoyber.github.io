@@ -185,6 +185,7 @@ span {
   box-shadow: none;
 }
 
+/* About Section Design */
 .about {
   display: flex;
   justify-content: center;
