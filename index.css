@@ -1025,7 +1025,7 @@ body {
 .navbar a.active {
   color: var(--main-color);
   border-bottom: 1px solid var(--main-color);
-  text-shadow: none;
+  text-shadow: 0 0 15px var(--main-color);
 }
 
 .home-img img {
@@ -1077,8 +1077,20 @@ body {
   background: var(--second-bg-color);
 }
 
+.skill-bar .info {
+  color: #000000;
+}
+
 .skill-bar .bar {
   background-color: var(--bg-color);
+}
+
+.skills big {
+  color: #000000;
+}
+
+.skills small {
+  color: #000000;
 }
 
 .skill-bar .bar span {
