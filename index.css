@@ -781,6 +781,7 @@ big {
   cursor: pointer;
 }
 
+/* Footer Section Design */
 .footer {
   display: flex;
   justify-content: space-between;
