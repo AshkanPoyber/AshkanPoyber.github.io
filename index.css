@@ -194,11 +194,12 @@ span {
   height: 4rem;
   border: 0.2rem solid var(--main-color);
   border-radius: 50%;
+  font-size: 2rem;
   position: fixed;
   top: 20px;
   right: 20px;
   padding: 10px 20px;
-  font-size: 16px;
+  /* font-size: 16px; */
   background-color: transparent;
   color: var(--main-color);
   cursor: pointer;
