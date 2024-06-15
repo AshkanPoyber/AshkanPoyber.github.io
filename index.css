@@ -192,6 +192,7 @@ span {
   align-items: center;
   width: 4rem;
   height: 4rem;
+  border: 0.2rem solid var(--main-color);
   position: fixed;
   top: 20px;
   right: 20px;
@@ -199,7 +200,6 @@ span {
   font-size: 16px;
   background-color: transparent;
   color: var(--main-color);
-  border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: 0.5s ease;
