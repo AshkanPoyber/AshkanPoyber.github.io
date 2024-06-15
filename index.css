@@ -201,7 +201,17 @@ span {
 }
 
 #theme-toggle:hover {
-  background-color: var(--main-color-light);
+  /* background-color: var(--main-color-light); */
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: var(--main-color);
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem var(--main-color);
+  font-size: 1.6rem;
+  color: var(--second-bg-color);
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: 0.5s ease;
 }
 
 /* About Section Design */
