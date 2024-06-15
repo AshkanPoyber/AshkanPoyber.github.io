@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-/*================================ CSS for the toggle button =====================*/
+/*================================ Activate Light & Dark Mode =====================*/
 const themeToggle = document.getElementById("theme-toggle");
 const root = document.documentElement;
 
