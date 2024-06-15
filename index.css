@@ -1005,7 +1005,8 @@ body {
 }
 
 .header {
-  background: var(--bg-color);
+  background: var(--second-bg-color);
+  box-shadow: 5px 5px 50px var(--main-color);
 }
 
 .logo {
