@@ -189,6 +189,7 @@ span {
 #theme-toggle {
   display: inline-flex;
   justify-content: center;
+  align-items: center;
   position: fixed;
   top: 20px;
   right: 20px;
