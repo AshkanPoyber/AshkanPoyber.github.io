@@ -1102,6 +1102,10 @@ body {
   background: var(--bg-color);
 }
 
+.timeline-date {
+  color: #000000;
+}
+
 .timeline-item:nth-child(odd) {
   padding-right: calc(50% + 30px);
   text-align: right;
