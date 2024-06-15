@@ -823,7 +823,7 @@ big {
   }
 }
 
-/* Responsive Design For Header ~ About ~ Services ~ Portfolio ~ Contact Section's */
+/* Responsive Design For Header ~ About ~ Services ~ Portfolio ~ Contact ~ Footer Section's */
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
