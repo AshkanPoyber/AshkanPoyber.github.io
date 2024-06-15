@@ -604,41 +604,6 @@ big {
   width: 50px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .timeline-items::before {
-    left: 20px;
-  }
-
-  .education h2 {
-    font-size: 33px;
-  }
-
-  .timeline-item {
-    padding-left: 50px !important;
-    padding-right: 20px !important;
-    text-align: left !important;
-  }
-
-  .timeline-dot {
-    left: 10px !important;
-  }
-
-  .timeline-date {
-    font-size: 18px;
-    text-align: left;
-  }
-
-  .timeline-content {
-    padding: 20px 30px;
-  }
-
-  .timeline-content p {
-    font-weight: 450;
-    font-size: 12px;
-  }
-}
-
 /* Portfolio Section Design */
 .portfolio {
   background: var(--second-bg-color);
@@ -820,6 +785,41 @@ big {
 
   .box {
     margin: 20px 0;
+  }
+}
+
+/* Responsive Design For Education Section */
+@media (max-width: 768px) {
+  .timeline-items::before {
+    left: 20px;
+  }
+
+  .education h2 {
+    font-size: 33px;
+  }
+
+  .timeline-item {
+    padding-left: 50px !important;
+    padding-right: 20px !important;
+    text-align: left !important;
+  }
+
+  .timeline-dot {
+    left: 10px !important;
+  }
+
+  .timeline-date {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .timeline-content {
+    padding: 20px 30px;
+  }
+
+  .timeline-content p {
+    font-weight: 450;
+    font-size: 12px;
   }
 }
 
