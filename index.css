@@ -195,12 +195,12 @@ span {
   border: 0.2rem solid var(--main-color);
   border-radius: 50%;
   font-size: 2rem;
+  color: var(--main-color);
   position: fixed;
   top: 20px;
   right: 20px;
   padding: 10px 20px;
   background-color: transparent;
-  color: var(--main-color);
   cursor: pointer;
   transition: 0.5s ease;
   /* z-index: 9999; */
