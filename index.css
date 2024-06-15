@@ -996,8 +996,7 @@ big {
   --bg-color: #f5f5f5;
   --second-bg-color: #e0e0e0;
   --text-color: #333;
-  --main-color: #4400ff;
-  /* --main-color: #007bff; */
+  --main-color: #007bff;
 }
 
 body {
