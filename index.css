@@ -200,7 +200,6 @@ span {
   border-radius: 50%;
   font-size: 2rem;
   color: var(--main-color);
-  /* margin: 3rem 1.5rem 3rem 0; */
   transition: 0.5s ease;
   cursor: pointer;
 }
@@ -860,6 +859,10 @@ big {
 @media (max-width: 991px) {
   .header {
     padding: 2rem 3%;
+  }
+
+  #theme-toggle {
+    right: 15%;
   }
 
   section {
