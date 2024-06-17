@@ -119,6 +119,16 @@ section {
   --main-color: #007bff;
 }
 
+.light-mode body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.light-mode .header {
+  background: var(--second-bg-color);
+  box-shadow: 5px 5px 50px var(--main-color);
+}
+
 #menu-icon {
   font-size: 3.6rem;
   color: var(--main-color);
