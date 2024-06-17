@@ -116,3 +116,5 @@ document.addEventListener("DOMContentLoaded", function () {
 // themeToggle.addEventListener("click", function () {
 //   root.classList.toggle("dark-mode");
 // });
+
+const toggleIcon = document.querySelector(".toggle-icon");
