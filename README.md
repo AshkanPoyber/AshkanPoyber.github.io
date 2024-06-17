@@ -46,9 +46,11 @@ https://AshkanPoyber.github.io
 <br>
 💢 Responsive
 <br>
+💢 Design Light Mode Style And Now All Users Can Change The Theme ( Mode ) To Light Or Dark Mode ~ I Hope To Enjoy It 😃
+<br>
 💢 Coding & Enjoy It :)
 <br>
-💢 **Wait For Next And Big Update => Enable Light Mode & Dark Mode And Add Progress Bar For Show My Talent's Progress 👌**
+💢 **Wait For Next And Big Update => Enable Color Selection By The User 👌**
 
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> Known Issue's
