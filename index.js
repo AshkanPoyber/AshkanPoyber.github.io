@@ -110,16 +110,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 /*================================ Activate Light & Dark Mode ~ Toggle Icon =====================*/
-// const themeToggle = document.getElementById("theme-toggle");
-// const root = document.documentElement;
-
-// themeToggle.addEventListener("click", function () {
-//   root.classList.toggle("dark-mode");
-// });
-
 const toggleIcon = document.querySelector(".toggle-icon");
 
 toggleIcon.addEventListener("click", () => {
-  toggleIcon.classList.toggle("bxs-moon");
+  toggleIcon.classList.toggle("bxs-sun");
   document.body.classList.toggle("light-mode");
 });
