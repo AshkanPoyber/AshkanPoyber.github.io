@@ -275,6 +275,18 @@ section {
   color: #fff;
 }
 
+.light-mode .contact {
+  background: var(--bg-color);
+}
+
+.light-mode .contact form .input-box input,
+.contact form textarea {
+  background: var(--second-bg-color);
+  color: var(--text-color);
+  border: 0.1rem solid var(--main-color);
+  box-shadow: 0 0 1rem var(--main-color);
+}
+
 /* Home Section Design */
 #menu-icon {
   font-size: 3.6rem;
@@ -1157,18 +1169,6 @@ big {
 
 /* Light Mode Styles */
 /*
-.contact {
-  background: var(--bg-color);
-}
-
-.contact form .input-box input,
-.contact form textarea {
-  background: var(--second-bg-color);
-  color: var(--text-color);
-  border: 0.1rem solid var(--main-color);
-  box-shadow: 0 0 1rem var(--main-color);
-}
-
 .footer {
   background: var(--second-bg-color);
   box-shadow: 5px 5px 50px var(--main-color);
