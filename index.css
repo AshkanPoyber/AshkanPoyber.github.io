@@ -267,6 +267,14 @@ section {
   box-shadow: 0 0 25px var(--main-color);
 }
 
+.light-mode .portfolio-layer p {
+  color: #fff;
+}
+
+.light-mode .portfolio-layer h4 {
+  color: #fff;
+}
+
 /* Home Section Design */
 #menu-icon {
   font-size: 3.6rem;
@@ -1149,14 +1157,6 @@ big {
 
 /* Light Mode Styles */
 /*
-.portfolio-layer p {
-  color: #fff;
-}
-
-.portfolio-layer h4 {
-  color: #fff;
-}
-
 .contact {
   background: var(--bg-color);
 }
