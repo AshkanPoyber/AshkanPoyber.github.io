@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-/*================================ Activate Light & Dark Mode =====================*/
+/*================================ Activate Light & Dark Mode ~ Toggle Icon =====================*/
 // const themeToggle = document.getElementById("theme-toggle");
 // const root = document.documentElement;
 
