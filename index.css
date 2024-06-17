@@ -287,6 +287,27 @@ section {
   box-shadow: 0 0 1rem var(--main-color);
 }
 
+.light-mode .footer {
+  background: var(--second-bg-color);
+  box-shadow: 5px 5px 50px var(--main-color);
+}
+
+.light-mode .footer span {
+  text-shadow: 0 0 25px var(--main-color);
+}
+
+.light-mode .footer b {
+  text-shadow: 0 0 25px black;
+}
+
+.light-mode .footer-iconTop a {
+  background: var(--main-color);
+}
+
+.light-mode .footer-iconTop a:hover {
+  box-shadow: 0 0 3rem var(--main-color);
+}
+
 /* Home Section Design */
 #menu-icon {
   font-size: 3.6rem;
