@@ -120,6 +120,6 @@ document.addEventListener("DOMContentLoaded", function () {
 const toggleIcon = document.querySelector(".toggle-icon");
 
 toggleIcon.addEventListener("click", () => {
-  toggleIcon.classList.toggle("bxs-moon");
-  document.body.classList.toggle("dark-mode");
+  toggleIcon.classList.toggle("bxs-sun");
+  document.body.classList.toggle("light-mode");
 });
