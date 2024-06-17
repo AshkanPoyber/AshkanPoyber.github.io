@@ -196,6 +196,31 @@ section {
   box-shadow: 0 0 25px var(--main-color);
 }
 
+.light-mode .skills {
+  background: var(--second-bg-color);
+}
+
+.light-mode .skill-bar .info {
+  color: #000000;
+}
+
+.light-mode .skill-bar .bar {
+  background-color: var(--bg-color);
+}
+
+.light-mode .skills big {
+  color: #000000;
+}
+
+.light-mode .skills small {
+  color: #000000;
+}
+
+.light-mode .skill-bar .bar span {
+  background: var(--main-color);
+  box-shadow: 0 0 25px var(--main-color);
+}
+
 /* Home Section Design */
 #menu-icon {
   font-size: 3.6rem;
