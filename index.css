@@ -221,6 +221,52 @@ section {
   box-shadow: 0 0 25px var(--main-color);
 }
 
+.light-mode .education {
+  background: var(--bg-color);
+}
+
+.light-mode .timeline-content h3 {
+  color: #000000;
+}
+
+.light-mode .timeline-date {
+  color: #000000;
+}
+
+.light-mode .timeline-content p {
+  color: #000000;
+}
+
+.light-mode .timeline-content span {
+  color: #fff;
+}
+
+.light-mode .timeline-item:nth-child(odd) {
+  padding-right: calc(50% + 30px);
+  text-align: right;
+}
+
+.light-mode .timeline-item:nth-child(even) {
+  padding-left: calc(50% + 30px);
+}
+
+.light-mode .timeline-dot,
+.portfolio-box {
+  background-color: var(--main-color);
+  box-shadow: 0 0 25px var(--main-color);
+}
+
+.light-mode .timeline-content,
+.portfolio-layer {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), var(--main-color));
+  box-shadow: 0 0 10px var(--main-color);
+}
+
+.light-mode .timeline-content:hover,
+.portfolio-layer {
+  box-shadow: 0 0 25px var(--main-color);
+}
+
 /* Home Section Design */
 #menu-icon {
   font-size: 3.6rem;
@@ -1103,78 +1149,6 @@ big {
 
 /* Light Mode Styles */
 /*
-
-.skills {
-  background: var(--second-bg-color);
-}
-
-.skill-bar .info {
-  color: #000000;
-}
-
-.skill-bar .bar {
-  background-color: var(--bg-color);
-}
-
-.skills big {
-  color: #000000;
-}
-
-.skills small {
-  color: #000000;
-}
-
-.skill-bar .bar span {
-  background: var(--main-color);
-  box-shadow: 0 0 25px var(--main-color);
-}
-
-.education {
-  background: var(--bg-color);
-}
-
-.timeline-content h3 {
-  color: #000000;
-}
-
-.timeline-date {
-  color: #000000;
-}
-
-.timeline-content p {
-  color: #000000;
-}
-
-.timeline-content span {
-  color: #fff;
-}
-
-.timeline-item:nth-child(odd) {
-  padding-right: calc(50% + 30px);
-  text-align: right;
-}
-
-.timeline-item:nth-child(even) {
-  padding-left: calc(50% + 30px);
-}
-
-.timeline-dot,
-.portfolio-box {
-  background-color: var(--main-color);
-  box-shadow: 0 0 25px var(--main-color);
-}
-
-.timeline-content,
-.portfolio-layer {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), var(--main-color));
-  box-shadow: 0 0 10px var(--main-color);
-}
-
-.timeline-content:hover,
-.portfolio-layer {
-  box-shadow: 0 0 25px var(--main-color);
-}
-
 .portfolio-layer p {
   color: #fff;
 }
