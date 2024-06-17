@@ -182,6 +182,10 @@ section {
   box-shadow: none;
 }
 
+.light-mode .about {
+  background: var(--second-bg-color);
+}
+
 /* Home Section Design */
 #menu-icon {
   font-size: 3.6rem;
@@ -1064,20 +1068,6 @@ big {
 
 /* Light Mode Styles */
 /*
-.btn {
-  background: var(--main-color);
-  color: var(--second-bg-color);
-  box-shadow: 0 0 1rem var(--main-color);
-}
-
-.btn:hover {
-  box-shadow: none;
-}
-
-.about {
-  background: var(--second-bg-color);
-}
-
 .services-container .services-box {
   background: var(--second-bg-color);
   border: 0.2rem solid var(--bg-color);
