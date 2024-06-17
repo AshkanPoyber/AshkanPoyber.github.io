@@ -160,6 +160,28 @@ section {
     0 0 100px var(--main-color);
 }
 
+.light-mode .social-media a {
+  background: transparent;
+  border: 0.2rem solid var(--main-color);
+  color: var(--main-color);
+}
+
+.light-mode .social-media a:hover {
+  background: var(--main-color);
+  color: var(--second-bg-color);
+  box-shadow: 0 0 1rem var(--main-color);
+}
+
+.light-mode .btn {
+  background: var(--main-color);
+  color: var(--second-bg-color);
+  box-shadow: 0 0 1rem var(--main-color);
+}
+
+.light-mode .btn:hover {
+  box-shadow: none;
+}
+
 /* Home Section Design */
 #menu-icon {
   font-size: 3.6rem;
@@ -1042,23 +1064,6 @@ big {
 
 /* Light Mode Styles */
 /*
-.home-img img:hover {
-  box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color),
-    0 0 100px var(--main-color);
-}
-
-.social-media a {
-  background: transparent;
-  border: 0.2rem solid var(--main-color);
-  color: var(--main-color);
-}
-
-.social-media a:hover {
-  background: var(--main-color);
-  color: var(--second-bg-color);
-  box-shadow: 0 0 1rem var(--main-color);
-}
-
 .btn {
   background: var(--main-color);
   color: var(--second-bg-color);
