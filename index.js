@@ -117,7 +117,7 @@ toggleIcon.addEventListener("click", () => {
   document.body.classList.toggle("light-mode");
 });
 
-/*================================ Activate Light & Dark Mode ~ Toggle Icon =====================*/
+/*================================ Send An Email By Users In Contact Section =====================*/
 document
   .getElementById("contactForm")
   .addEventListener("submit", function (event) {
