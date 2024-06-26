@@ -125,7 +125,7 @@ document
 
     const formData = new FormData(this);
 
-    fetch("index.php", {
+    fetch("send_mail.php", {
       method: "POST",
       body: formData,
     })
