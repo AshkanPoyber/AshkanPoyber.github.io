@@ -125,29 +125,16 @@ document
 
     const formData = new FormData(this);
     const data = {
-      from: formData.get("email"),
-      to: "AshkanDalili1381@gmail.com", // ایمیل گیرنده
+      name: formData.get("name"),
+      email: formData.get("email"),
+      mobile: formData.get("mobile"),
       subject: formData.get("subject"),
-      text: `Name: ${formData.get("name")}\nMobile: ${formData.get(
-        "mobile"
-      )}\n\nMessage:\n${formData.get("message")}`,
+      message: formData.get("message"),
     };
 
-    fetch("https://api.mailgun.net/v3/YOUR_DOMAIN_NAME/messages", {
-      method: "POST",
-      headers: {
-        Authorization: "Basic " + btoa("api:YOUR_API_KEY"),
-        "Content-Type": "application/x-www-form-urlencoded",
-      },
-      body: new URLSearchParams(data).toString(),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        document.getElementById("result").innerText =
-          "Email sent successfully!";
-      })
-      .catch((error) => {
-        document.getElementById("result").innerText =
-          "Failed to send email: " + error.message;
-      });
+    // نمایش اطلاعات فرم در کنسول
+    console.log(data);
+
+    document.getElementById("result").innerText =
+      "Form data logged in console!";
   });
