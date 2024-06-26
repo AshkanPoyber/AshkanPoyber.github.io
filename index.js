@@ -126,7 +126,7 @@ document
     const formData = new FormData(this);
     const data = {
       from: formData.get("email"),
-      to: "your-email@example.com", // ایمیل گیرنده
+      to: "AshkanDalili1381@gmail.com", // ایمیل گیرنده
       subject: formData.get("subject"),
       text: `Name: ${formData.get("name")}\nMobile: ${formData.get(
         "mobile"
