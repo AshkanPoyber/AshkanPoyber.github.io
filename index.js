@@ -116,3 +116,38 @@ toggleIcon.addEventListener("click", () => {
   toggleIcon.classList.toggle("bxs-sun");
   document.body.classList.toggle("light-mode");
 });
+
+/*================================ Activate Light & Dark Mode ~ Toggle Icon =====================*/
+document
+  .getElementById("contactForm")
+  .addEventListener("submit", function (event) {
+    event.preventDefault(); // جلوگیری از ارسال فرم به روش پیش‌فرض
+
+    const formData = new FormData(this);
+    const data = {
+      from: formData.get("email"),
+      to: "your-email@example.com", // ایمیل گیرنده
+      subject: formData.get("subject"),
+      text: `Name: ${formData.get("name")}\nMobile: ${formData.get(
+        "mobile"
+      )}\n\nMessage:\n${formData.get("message")}`,
+    };
+
+    fetch("https://api.mailgun.net/v3/YOUR_DOMAIN_NAME/messages", {
+      method: "POST",
+      headers: {
+        Authorization: "Basic " + btoa("api:YOUR_API_KEY"),
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+      body: new URLSearchParams(data).toString(),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        document.getElementById("result").innerText =
+          "Email sent successfully!";
+      })
+      .catch((error) => {
+        document.getElementById("result").innerText =
+          "Failed to send email: " + error.message;
+      });
+  });
