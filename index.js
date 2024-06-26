@@ -118,23 +118,3 @@ toggleIcon.addEventListener("click", () => {
 });
 
 /*================================ Send An Email By Users In Contact Section =====================*/
-document
-  .getElementById("contactForm")
-  .addEventListener("submit", function (event) {
-    event.preventDefault(); // جلوگیری از ارسال فرم به روش پیش‌فرض
-
-    const formData = new FormData(this);
-
-    fetch("send_mail.php", {
-      method: "POST",
-      body: formData,
-    })
-      .then((response) => response.text())
-      .then((data) => {
-        document.getElementById("result").innerText = data;
-      })
-      .catch((error) => {
-        document.getElementById("result").innerText =
-          "Failed to send email: " + error.message;
-      });
-  });
