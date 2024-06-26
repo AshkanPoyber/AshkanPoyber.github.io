@@ -124,17 +124,17 @@ document
     event.preventDefault(); // جلوگیری از ارسال فرم به روش پیش‌فرض
 
     const formData = new FormData(this);
-    const data = {
-      name: formData.get("name"),
-      email: formData.get("email"),
-      mobile: formData.get("mobile"),
-      subject: formData.get("subject"),
-      message: formData.get("message"),
-    };
 
-    // نمایش اطلاعات فرم در کنسول
-    console.log(data);
-
-    document.getElementById("result").innerText =
-      "Form data logged in console!";
+    fetch("send_mail.php", {
+      method: "POST",
+      body: formData,
+    })
+      .then((response) => response.text())
+      .then((data) => {
+        document.getElementById("result").innerText = data;
+      })
+      .catch((error) => {
+        document.getElementById("result").innerText =
+          "Failed to send email: " + error.message;
+      });
   });
