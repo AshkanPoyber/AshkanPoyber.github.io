@@ -54,12 +54,9 @@ ScrollReveal().reveal(
 ScrollReveal().reveal(".home-content h1, .skill-left, .about-img", {
   origin: "left",
 });
-ScrollReveal().reveal(
-  ".home-content p, .skill-right, .about-content, .navbar",
-  {
-    origin: "right",
-  }
-);
+ScrollReveal().reveal(".home-content p, .skill-right, .about-content", {
+  origin: "right",
+});
 
 /*================================ Typed JS =====================*/
 const typed = new Typed(".multiple-text", {
