@@ -55,7 +55,7 @@ ScrollReveal().reveal(".home-content h1, .skill-left, .about-img", {
   origin: "left",
 });
 ScrollReveal().reveal(
-  ".home-content p, .skill-right, .about-content, .navbar a",
+  ".home-content p, .skill-right, .about-content, .navbar",
   {
     origin: "right",
   }
