@@ -120,27 +120,25 @@ toggleIcon.addEventListener("click", () => {
 /*================================ Send An Email By Users In Contact Section =====================*/
 
 /*================================ Multie languages =====================*/
-document.getElementById("settings-button").onclick = function () {
-  var langBox = document.getElementById("language-selection");
-  langBox.style.display = langBox.style.display === "none" ? "block" : "none";
-};
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("settings-button").onclick = function () {
+    var langBox = document.getElementById("language-selection");
+    langBox.style.display = langBox.style.display === "none" ? "block" : "none";
+  };
+});
 
 function setLanguage(lang) {
-  // فرض می‌کنیم که محتوای هر بخش به شکل dictionary برای زبان‌های مختلف ذخیره شده است
   var texts = {
     en: {
       greeting: "Hello!",
       about: "About me",
-      // سایر متون
     },
     fa: {
       greeting: "سلام!",
       about: "درباره من",
-      // سایر متون
     },
   };
 
   document.getElementById("greeting").innerText = texts[lang].greeting;
   document.getElementById("about").innerText = texts[lang].about;
-  // سایر تغییرات متن
 }
