@@ -114,7 +114,7 @@ section {
 }
 
 /* Settings Icon Section Design */
-.settings-button .settings-icon {
+#settings-button .settings-icon {
   position: fixed;
   top: 20px;
   right: 70px;
@@ -132,7 +132,7 @@ section {
   cursor: pointer;
 }
 
-.settings-button .settings-icon:hover {
+#settings-button .settings-icon:hover {
   background: var(--main-color);
   color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
