@@ -120,25 +120,25 @@ toggleIcon.addEventListener("click", () => {
 /*================================ Send An Email By Users In Contact Section =====================*/
 
 /*================================ Multie languages =====================*/
-document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("settings-button").onclick = function () {
-    var langBox = document.getElementById("language-selection");
-    langBox.style.display = langBox.style.display === "none" ? "block" : "none";
-  };
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//   document.getElementById("settings-button").onclick = function () {
+//     var langBox = document.getElementById("language-selection");
+//     langBox.style.display = langBox.style.display === "none" ? "block" : "none";
+//   };
+// });
 
-function setLanguage(lang) {
-  var texts = {
-    en: {
-      greeting: "Hello!",
-      about: "About me",
-    },
-    fa: {
-      greeting: "سلام!",
-      about: "درباره من",
-    },
-  };
+// function setLanguage(lang) {
+//   var texts = {
+//     en: {
+//       greeting: "Hello!",
+//       about: "About me",
+//     },
+//     fa: {
+//       greeting: "سلام!",
+//       about: "درباره من",
+//     },
+//   };
 
-  document.getElementById("greeting").innerText = texts[lang].greeting;
-  document.getElementById("about").innerText = texts[lang].about;
-}
+//   document.getElementById("greeting").innerText = texts[lang].greeting;
+//   document.getElementById("about").innerText = texts[lang].about;
+// }
