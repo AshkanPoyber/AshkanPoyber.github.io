@@ -88,7 +88,7 @@ section {
 }
 
 /* Toggle Icon Section Design */
-.toggle .toggle-icon {
+.toggle-icon {
   position: fixed;
   top: 20px;
   right: 20px;
@@ -106,7 +106,7 @@ section {
   cursor: pointer;
 }
 
-.toggle .toggle-icon:hover {
+.toggle-icon:hover {
   background: var(--main-color);
   color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
