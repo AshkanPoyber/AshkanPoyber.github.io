@@ -8,14 +8,6 @@ const videos = {
     { src: "video3.mp4", thumb: "thumb3.jpg", title: "First Video" },
     { src: "video4.mp4", thumb: "thumb4.jpg", title: "Second Video" },
   ],
-  temp3: [
-    { src: "video1.mp4", thumb: "thumb1.jpg", title: "First Video" },
-    { src: "video2.mp4", thumb: "thumb2.jpg", title: "Second Video" },
-  ],
-  temp4: [
-    { src: "video3.mp4", thumb: "thumb3.jpg", title: "First Video" },
-    { src: "video4.mp4", thumb: "thumb4.jpg", title: "Second Video" },
-  ],
   // Another Category
 };
 
