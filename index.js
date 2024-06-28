@@ -143,6 +143,7 @@ toggleIcon.addEventListener("click", () => {
 //   document.getElementById("about").innerText = texts[lang].about;
 // }
 
-document.getElementById("navigateIcon").addEventListener("click", function () {
+/*================================ Movie WebPage Button To Click To Go Related page =====================*/
+document.getElementById("MovieWebPage").addEventListener("click", function () {
   window.location.href = "Videos Webpage/videos.html";
 });
