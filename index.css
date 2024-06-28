@@ -89,12 +89,12 @@ section {
 
 /* Toggle Icon Section Design */
 .toggle-icon {
-  margin-left: 2rem;
+  margin-left: 1rem;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
   background-color: transparent;
   border: 0.2rem solid var(--main-color);
   border-radius: 50%;
@@ -116,8 +116,8 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
   background-color: transparent;
   border: 0.2rem solid var(--main-color);
   border-radius: 50%;
@@ -140,8 +140,8 @@ section {
   margin-right: 2rem;
   justify-content: center;
   align-items: center;
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
   background-color: transparent;
   border: 0.2rem solid var(--main-color);
   border-radius: 50%;
