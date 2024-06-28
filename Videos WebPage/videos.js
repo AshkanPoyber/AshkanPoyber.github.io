@@ -1,10 +1,18 @@
 // script.js
 const videos = {
-  motivational: [
+  temp1: [
     { src: "video1.mp4", thumb: "thumb1.jpg", title: "ویدئو 1" },
     { src: "video2.mp4", thumb: "thumb2.jpg", title: "ویدئو 2" },
   ],
-  competition: [
+  temp2: [
+    { src: "video3.mp4", thumb: "thumb3.jpg", title: "ویدئو 3" },
+    { src: "video4.mp4", thumb: "thumb4.jpg", title: "ویدئو 4" },
+  ],
+  temp3: [
+    { src: "video1.mp4", thumb: "thumb1.jpg", title: "ویدئو 1" },
+    { src: "video2.mp4", thumb: "thumb2.jpg", title: "ویدئو 2" },
+  ],
+  temp4: [
     { src: "video3.mp4", thumb: "thumb3.jpg", title: "ویدئو 3" },
     { src: "video4.mp4", thumb: "thumb4.jpg", title: "ویدئو 4" },
   ],
