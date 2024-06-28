@@ -828,7 +828,7 @@ big {
 }
 
 /* Responsive Design For Skills Section */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .skill-main {
     grid-template-columns: 1fr;
   }
@@ -840,10 +840,10 @@ big {
   .box {
     margin: 20px 0;
   }
-}
+} */
 
 /* Responsive Design For Education Section */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .timeline-items::before {
     left: 20px;
   }
@@ -875,10 +875,10 @@ big {
     font-weight: 450;
     font-size: 12px;
   }
-}
+} */
 
 /* Responsive Design For Header ~ Dark&Light Mode Button ~ About ~ Services ~ Portfolio ~ Contact ~ Footer Section's */
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   html {
     font-size: 55%;
   }
@@ -1017,7 +1017,7 @@ big {
     text-align: center;
     margin-top: 2rem;
   }
-}
+} */
 
 /* Light Mode Style Design */
 .light-mode {
