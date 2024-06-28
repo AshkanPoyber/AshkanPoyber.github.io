@@ -72,7 +72,7 @@ span {
   color: var(--main-color);
 }
 
-.music-icon {
+.movie-icon {
   margin-left: 2rem;
   display: inline-flex;
   justify-content: center;
@@ -89,7 +89,7 @@ span {
   cursor: pointer;
 }
 
-.music-icon:hover {
+.movie-icon:hover {
   background: var(--main-color);
   color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
@@ -100,12 +100,24 @@ span {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
 
+.backtext {
+  font-size: 2.5rem;
+  color: var(--text-color);
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.backtext:hover {
+  transform: scale(1.05);
+}
+
 .backhome {
-  margin-left: 2rem;
+  margin-right: 1rem;
   display: inline-flex;
   justify-content: center;
   align-items: center;
