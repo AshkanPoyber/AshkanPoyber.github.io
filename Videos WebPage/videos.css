@@ -99,7 +99,8 @@ span {
 }
 
 .video-player {
-  margin: 20px 0;
+  margin: 40px 0;
+  box-shadow: 5px 5px 50px var(--main-color);
 }
 
 .video-list {
@@ -114,7 +115,7 @@ span {
 }
 
 .video-item img {
-  width: 200px;
-  height: 150px;
+  width: 300px;
+  height: 180px;
   object-fit: cover;
 }
