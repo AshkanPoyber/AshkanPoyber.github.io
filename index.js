@@ -142,3 +142,7 @@ toggleIcon.addEventListener("click", () => {
 //   document.getElementById("greeting").innerText = texts[lang].greeting;
 //   document.getElementById("about").innerText = texts[lang].about;
 // }
+
+document.getElementById("navigateIcon").addEventListener("click", function () {
+  window.location.href = "Videos Webpage/videos.html";
+});
