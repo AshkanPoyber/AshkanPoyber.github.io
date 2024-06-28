@@ -137,8 +137,7 @@ section {
 /* Motivation Movie icon Section Design */
 .movie-icon {
   display: inline-flex;
-  margin-right: 2rem;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   width: 3.5rem;
   height: 3.5rem;
