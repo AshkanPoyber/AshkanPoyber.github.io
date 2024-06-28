@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
 :root {
   --bg-color: #1f242d;
   --second-bg-color: #323946;
@@ -10,6 +21,7 @@ body {
   direction: ltr;
   text-align: center;
   background: var(--bg-color);
+  color: var(--text-color);
 }
 
 .container {
