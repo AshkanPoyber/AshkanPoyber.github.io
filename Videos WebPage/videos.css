@@ -84,6 +84,7 @@ span {
   border-radius: 50%;
   font-size: 2rem;
   color: var(--main-color);
+  animation: rotate 2s infinite linear;
   transition: 0.5s ease;
   cursor: pointer;
 }
@@ -93,6 +94,15 @@ span {
   color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
   transform: rotate(360deg);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
 }
 
 .container {
