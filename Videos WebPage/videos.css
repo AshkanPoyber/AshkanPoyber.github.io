@@ -104,6 +104,21 @@ span {
   }
 }
 
+.backhome {
+  margin-left: 2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: transparent;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 50%;
+  font-size: 2rem;
+  color: var(--main-color);
+  cursor: pointer;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
