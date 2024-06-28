@@ -1,8 +1,15 @@
-/* styles.css */
+:root {
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --text-color: #fff;
+  /* --main-color: #0ef; */
+  --main-color: rgb(0, 255, 34);
+}
+
 body {
-  font-family: Arial, sans-serif;
   direction: ltr;
   text-align: center;
+  background: var(--bg-color);
 }
 
 .container {
