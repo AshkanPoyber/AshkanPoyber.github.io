@@ -100,7 +100,7 @@ span {
 
 .video-player {
   margin: 40px 0;
-  box-shadow: 5px 5px 50px var(--main-color);
+  border: 0.2rem solid var(--main-color);
 }
 
 .video-list {
