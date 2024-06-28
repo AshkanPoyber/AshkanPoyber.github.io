@@ -135,11 +135,9 @@ section {
 }
 
 /* Motivation Movie icon Section Design */
-/*.movie-icon {
-  position: fixed;
-  top: 20px;
-  right: 104px;
+.movie-icon {
   display: inline-flex;
+  margin-right: 2rem;
   justify-content: center;
   align-items: center;
   width: 4rem;
@@ -152,7 +150,7 @@ section {
   transition: 0.5s ease;
   cursor: pointer;
 }
- */
+
 .movie-icon:hover {
   background: var(--main-color);
   color: var(--second-bg-color);
