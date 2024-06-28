@@ -8,7 +8,26 @@
     <title>Videos WebPage</title>
   </head>
   <body>
-    <div class="container">
+    <header class="header">
+      <a href="#home" class="logo">MohammadReza<span>Dalili</span></a>
+
+      <i class="bx bx-menu-alt-right" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Educations</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <i class="bx bxs-moon toggle-icon"></i>
+        <i class="bx bx-cog settings-icon"></i>
+        <i class="bx bx-camera-movie movie-icon"></i>
+      </nav>
+    </header>
+
+    <section class="container">
       <div class="categories">
         <button class="category" onclick="filterVideos('temp1')">
           Motivational Videos
@@ -28,7 +47,7 @@
       <div class="video-list" id="videoList">
         <!-- ویدئوها بر اساس دسته‌بندی‌ها بارگذاری می‌شوند -->
       </div>
-    </div>
+    </section>
 
     <script src="videos.js"></script>
   </body>

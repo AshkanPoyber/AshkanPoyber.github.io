@@ -1,7 +1,11 @@
 // script.js
 const videos = {
   temp1: [
-    { src: "video1.mp4", thumb: "Thumbnails/Temp1.png", title: "First Video" },
+    {
+      src: "Videos/Temp1.mp4",
+      thumb: "Thumbnails/Temp1.png",
+      title: "First Video",
+    },
     { src: "video2.mp4", thumb: "Thumbnails/Temp1.png", title: "Second Video" },
   ],
   temp2: [
