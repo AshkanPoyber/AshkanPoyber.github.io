@@ -17,6 +17,11 @@
   --main-color: rgb(0, 255, 34);
 }
 
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
 body {
   direction: ltr;
   text-align: center;
