@@ -31,49 +31,61 @@
         <link rel="stylesheet" href="styles.css" />
       </head>
       <body>
-        <div class="video-container">
-          <video id="video" class="video" width="600">
-            <source id="videoSource" src="video1.mp4" type="video/mp4" />
-            مرورگر شما از ویدئو پشتیبانی نمی‌کند.
-          </video>
-          <div class="controls">
-            <button id="playPause" class="control-button">▶️/⏸️</button>
-            <button id="muteUnmute" class="control-button">🔇/🔊</button>
-            <input
-              type="range"
-              id="volume"
-              class="control-slider"
-              min="0"
-              max="1"
-              step="0.1"
-              value="1"
-            />
-            <label for="playbackRate">سرعت پخش:</label>
-            <select id="playbackRate" class="control-select">
-              <option value="0.5">0.5x</option>
-              <option value="1" selected>1x</option>
-              <option value="1.5">1.5x</option>
-              <option value="2">2x</option>
-            </select>
-            <label for="quality">کیفیت:</label>
-            <select id="quality" class="control-select">
-              <option value="480p">480p</option>
-              <option value="720p" selected>720p</option>
-              <option value="1080p">1080p</option>
-            </select>
-            <button id="fullscreen" class="control-button">⛶</button>
-            <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
-            <input
-              type="range"
-              id="seekBar"
-              class="control-slider"
-              min="0"
-              max="100"
-              step="1"
-              value="0"
-            />
+        <section>
+          <div class="categories">
+            <button class="category" onclick="filterVideos('motivationals')">
+              Motivational Videos
+            </button>
+            <button class="category" onclick="filterVideos('projects')">
+              My Project Videos
+            </button>
           </div>
-        </div>
+          <div class="video-container">
+            <video id="video" class="video" width="600">
+              <source id="videoSource" src="video1.mp4" type="video/mp4" />
+              مرورگر شما از ویدئو پشتیبانی نمی‌کند.
+            </video>
+            <div class="controls">
+              <button id="playPause" class="control-button">▶️/⏸️</button>
+              <button id="muteUnmute" class="control-button">🔇/🔊</button>
+              <input
+                type="range"
+                id="volume"
+                class="control-slider"
+                min="0"
+                max="1"
+                step="0.1"
+                value="1"
+              />
+              <label for="playbackRate">سرعت پخش:</label>
+              <select id="playbackRate" class="control-select">
+                <option value="0.5">0.5x</option>
+                <option value="1" selected>1x</option>
+                <option value="1.5">1.5x</option>
+                <option value="2">2x</option>
+              </select>
+              <label for="quality">کیفیت:</label>
+              <select id="quality" class="control-select">
+                <option value="480p">480p</option>
+                <option value="720p" selected>720p</option>
+                <option value="1080p">1080p</option>
+              </select>
+              <button id="fullscreen" class="control-button">⛶</button>
+              <span id="currentTime">0:00</span> /
+              <span id="duration">0:00</span>
+              <input
+                type="range"
+                id="seekBar"
+                class="control-slider"
+                min="0"
+                max="100"
+                step="1"
+                value="0"
+              />
+            </div>
+          </div>
+        </section>
+
         <script src="script.js"></script>
       </body>
     </html>
