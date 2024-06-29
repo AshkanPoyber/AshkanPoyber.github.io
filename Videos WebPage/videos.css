@@ -172,16 +172,22 @@ span {
 }
 
 .video-list {
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* border: 0.2rem solid var(--main-color); */
 }
 
 .video-item {
+  font-size: 2rem;
   margin: 10px;
   cursor: pointer;
   color: black;
+  transition: 0.5s ease;
+}
+
+.video-item:hover {
+  transform: scale(1.1);
 }
 
 .video-item img {
