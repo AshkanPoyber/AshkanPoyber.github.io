@@ -141,7 +141,8 @@ span {
 }
 
 .container {
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: -20px;
   width: 70%;
 }
 
@@ -182,7 +183,6 @@ span {
   font-size: 2rem;
   margin: 10px;
   cursor: pointer;
-  color: black;
   transition: 0.5s ease;
 }
 
