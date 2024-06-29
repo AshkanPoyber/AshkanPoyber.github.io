@@ -31,8 +31,7 @@ body {
 
 section {
   min-height: 100vh;
-  padding: 10rem 9% 2rem;
-
+  padding: 10rem 10% 2rem;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: auto 1fr;
@@ -135,6 +134,12 @@ span {
   font-size: 2rem;
   color: var(--main-color);
   cursor: pointer;
+}
+
+.container1 {
+  width: 80%;
+  margin-top: 100px;
+  margin-left: -100px;
 }
 
 .container {
