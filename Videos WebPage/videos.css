@@ -158,18 +158,19 @@ span {
   box-shadow: none;
 }
 
-.video-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 /*
 .video-player {
   margin: 40px 0;
   border: 0.2rem solid var(--main-color);
 }
 */
+
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .video-item {
   margin: 10px;
   cursor: pointer;
