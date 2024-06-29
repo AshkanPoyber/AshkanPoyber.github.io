@@ -11,6 +11,12 @@ const videos = {
     { src: "video3.mp4", thumb: "Thumbnails/Temp2.png", title: "First Video" },
     { src: "video4.mp4", thumb: "Thumbnails/Temp1.png", title: "Second Video" },
   ],
+  another: [
+    { src: "video3.mp4", thumb: "Thumbnails/Temp2.png", title: "First Video" },
+    { src: "video4.mp4", thumb: "Thumbnails/Temp1.png", title: "Second Video" },
+    { src: "video4.mp4", thumb: "Thumbnails/Temp1.png", title: "Second Video" },
+    { src: "video4.mp4", thumb: "Thumbnails/Temp1.png", title: "Second Video" },
+  ],
   // Another Category
 };
 

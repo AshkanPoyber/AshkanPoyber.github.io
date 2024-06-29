@@ -146,6 +146,7 @@ span {
 }
 
 .category {
+  margin-top: 25px;
   margin-bottom: 25px;
   display: inline-block;
   padding: 1rem 2.8rem;
@@ -172,11 +173,13 @@ span {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border: 0.2rem solid var(--main-color);
 }
 
 .video-item {
   margin: 10px;
   cursor: pointer;
+  color: black;
 }
 
 .video-item img {
