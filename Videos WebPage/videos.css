@@ -136,7 +136,12 @@ span {
   cursor: pointer;
 }
 
+.categories {
+  padding: 20px;
+}
+
 .container {
+  margin-top: 50px;
   width: 70%;
 }
 
