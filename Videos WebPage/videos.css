@@ -132,7 +132,7 @@ span {
   cursor: pointer;
 }
 
-.container {
+/* .container {
   width: 80%;
   margin: 30px auto;
 }
@@ -158,12 +158,11 @@ span {
   box-shadow: none;
 }
 
-/*
+
 .video-player {
   margin: 40px 0;
   border: 0.2rem solid var(--main-color);
 }
-*/
 
 .video-list {
   display: flex;
@@ -180,7 +179,7 @@ span {
   width: 300px;
   height: 180px;
   object-fit: cover;
-}
+} */
 
 /* Footer Section Design */
 .footer {
