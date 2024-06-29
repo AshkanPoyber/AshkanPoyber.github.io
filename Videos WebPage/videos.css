@@ -135,6 +135,7 @@ span {
   color: var(--main-color);
   cursor: pointer;
 }
+
 /* 
 .container1 {
   width: 80%;
@@ -142,9 +143,8 @@ span {
   margin-left: -100px;
 } */
 
-.container2 {
+.container {
   width: 70%;
-  margin: 50px auto;
 }
 
 .category {
