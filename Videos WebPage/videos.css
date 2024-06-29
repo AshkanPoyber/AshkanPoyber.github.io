@@ -132,6 +132,69 @@ span {
   cursor: pointer;
 }
 
+.video-container {
+  position: relative;
+  width: fit-content;
+  margin: 20px auto;
+  background: black;
+}
+
+.video {
+  display: block;
+  width: 100%;
+}
+
+.controls {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.control-button,
+.control-select,
+.control-slider {
+  margin: 0 5px;
+  padding: 5px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.control-select,
+.control-slider {
+  appearance: none;
+  background: white;
+  height: 5px;
+}
+
+.control-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  background: #007bff;
+  cursor: pointer;
+}
+
+.control-slider::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  background: #007bff;
+  cursor: pointer;
+}
+
+#currentTime,
+#duration {
+  color: white;
+}
+
 /* .container {
   width: 80%;
   margin: 30px auto;
