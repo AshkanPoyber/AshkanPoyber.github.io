@@ -147,24 +147,8 @@ span {
   margin: 50px auto;
 }
 
-.categories {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .category {
   margin-bottom: 20px;
-  padding: 1rem 2.8rem;
-  background: var(--main-color);
-  border-radius: 4rem;
-  box-shadow: 0 0 1rem var(--main-color);
-  font-size: 1.6rem;
-  color: var(--second-bg-color);
-  letter-spacing: 0.1rem;
-  font-weight: 600;
-  transition: 0.5s ease;
-  /* margin-bottom: 20px;
   display: inline-block;
   padding: 1rem 2.8rem;
   background: var(--main-color);
@@ -174,7 +158,7 @@ span {
   color: var(--second-bg-color);
   letter-spacing: 0.1rem;
   font-weight: 600;
-  transition: 0.5s ease; */
+  transition: 0.5s ease;
 }
 
 .category:hover {
