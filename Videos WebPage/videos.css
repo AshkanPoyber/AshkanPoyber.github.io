@@ -134,14 +134,11 @@ span {
 
 .container {
   width: 80%;
-  margin: 30px auto;
-}
-
-.categories {
-  margin: 20px 0;
+  margin: 50px auto;
 }
 
 .category {
+  margin-bottom: 20px;
   display: inline-block;
   padding: 1rem 2.8rem;
   background: var(--main-color);
