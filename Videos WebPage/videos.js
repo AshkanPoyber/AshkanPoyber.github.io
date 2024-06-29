@@ -36,3 +36,9 @@ function playVideo(src) {
   video.load();
   video.play();
 }
+
+function changePlaybackRate() {
+  const video = document.getElementById("video");
+  const playbackRate = document.getElementById("playbackRate").value;
+  video.playbackRate = playbackRate;
+}
