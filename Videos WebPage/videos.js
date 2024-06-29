@@ -1,4 +1,3 @@
-// script.js
 const videos = {
   motivationals: [
     {

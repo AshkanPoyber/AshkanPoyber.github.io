@@ -145,5 +145,5 @@ toggleIcon.addEventListener("click", () => {
 
 /*================================ Movie WebPage Button To Click To Go Related page =====================*/
 document.getElementById("MovieWebPage").addEventListener("click", function () {
-  window.location.href = "Videos Webpage/videos.html";
+  window.location.href = "/ashkanpoyber.github.io/videos.html";
 });
