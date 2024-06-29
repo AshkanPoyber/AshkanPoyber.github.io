@@ -163,6 +163,7 @@ span {
 .category:hover {
   box-shadow: none;
   transform: scale(1.1);
+  color: black;
 }
 
 .video-player {
