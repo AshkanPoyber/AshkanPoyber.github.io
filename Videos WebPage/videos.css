@@ -173,7 +173,7 @@ span {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: 0.2rem solid var(--main-color);
+  /* border: 0.2rem solid var(--main-color); */
 }
 
 .video-item {
@@ -186,6 +186,13 @@ span {
   width: 300px;
   height: 180px;
   object-fit: cover;
+  border: 0.2rem solid var(--main-color);
+  transition: 0.5s ease;
+}
+
+.video-item img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px var(--main-color);
 }
 
 /* Footer Section Design */
