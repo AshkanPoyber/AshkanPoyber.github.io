@@ -9,8 +9,8 @@ const videos = {
     { src: "video2.mp4", thumb: "Thumbnails/Temp2.png", title: "Second Video" },
   ],
   projects: [
-    { src: "video3.mp4", thumb: "Thumbnails/Temp1.png", title: "First Video" },
-    { src: "video4.mp4", thumb: "Thumbnails/Temp2.png", title: "Second Video" },
+    { src: "video3.mp4", thumb: "Thumbnails/Temp2.png", title: "First Video" },
+    { src: "video4.mp4", thumb: "Thumbnails/Temp1.png", title: "Second Video" },
   ],
   // Another Category
 };
