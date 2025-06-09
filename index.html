@@ -1,571 +1,573 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- BoxIcons Css -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <!-- Custom Css -->
-    <link rel="stylesheet" href="index.css" />
-    <link rel="shortcut icon" href="Icon/Icon.png" type="image/x-icon" />
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <title>About Me | MohammadReza Dalili</title>
-  </head>
-  <body>
-    <!-- Header Design  -->
-    <header class="header">
-      <a href="#home" class="logo">MohammadReza<span>Dalili</span></a>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- BoxIcons Css -->
+      <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+      />
+      <!-- Custom Css -->
+      <link rel="stylesheet" href="index.css" />
+      <link rel="shortcut icon" href="Icon/Icon.png" type="image/x-icon" />
+      <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+      <title>About Me | MohammadReza Dalili</title>
+    </head>
+    <body>
+      <!-- Header Design  -->
+      <header class="header">
+        <a href="#home" class="logo">MohammadReza<span>Dalili</span></a>
 
-      <i class="bx bx-menu-alt-right" id="menu-icon"></i>
+        <i class="bx bx-menu-alt-right" id="menu-icon"></i>
 
-      <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Educations</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-        <i class="bx bxs-moon toggle-icon"></i>
-        <i class="bx bx-cog settings-icon"></i>
-        <i class="bx bx-camera-movie movie-icon" id="MovieWebPage"></i>
-      </nav>
-    </header>
+        <nav class="navbar">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Educations</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+          <i class="bx bxs-moon toggle-icon"></i>
+          <i class="bx bx-cog settings-icon"></i>
+          <i class="bx bx-camera-movie movie-icon" id="MovieWebPage"></i>
+        </nav>
+      </header>
 
-    <!-- Language Selection Settings Section Design -->
-    <!-- <div id="language-selection" style="display: none">
+      <!-- Language Selection Settings Section Design -->
+      <!-- <div id="language-selection" style="display: none">
       <button onclick="setLanguage('en')">English</button>
       <button onclick="setLanguage('fa')">فارسی</button>
       زبان‌های دیگر
     </div> -->
 
-    <!-- Home Section Design -->
-    <section class="home" id="home">
-      <div class="home-content">
-        <h3>Hello, Its Me</h3>
-        <h1>AshkanPoyber</h1>
-        <h3>And Im a <span class="multiple-text"></span></h3>
-        <p>
-          Hello , I Am <b><span>MohammadReza Dalili</span></b> , An Experienced
-          Front-End Developer Interested In Design & Coding . I Have An
-          Education In Software Engineering And Several Years Of Experience In
-          Web Design . Also , I Have Ability In Backend Programming .
-        </p>
-        <div class="social-media">
-          <a href="https://linkedin.com/in/mohammadreza-dalili"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-          <a href="https://github.com/AshkanPoyber"
-            ><i class="bx bxl-github"></i
-          ></a>
-          <a href="https://instagram.com/mohammadreza__official__"
-            ><i class="bx bxl-instagram-alt"></i
-          ></a>
-          <a href="https://t.me/@Staff_Ashkan"
-            ><i class="bx bxl-telegram"></i
-          ></a>
-          <a href="mailto:AshkanDalili1381@gmail.com"
-            ><i class="bx bxl-gmail"></i
-          ></a>
-          <a href="https://youtube.com/AshkanPoyber"
-            ><i class="bx bxl-youtube"></i
-          ></a>
-          <a href="https://x.com/AshkanPoyber"
-            ><i class="bx bxl-twitter"></i
-          ></a>
-        </div>
-        <a href="https://github.com/AshkanPoyber?tab=repositories" class="btn"
-          >See My Full Repository In GitHub</a
-        >
-      </div>
-
-      <div class="home-img">
-        <img src="Images/Home.png" alt="" />
-      </div>
-    </section>
-
-    <!-- About Section Design -->
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="Images/About.png" alt="" />
-      </div>
-
-      <div class="about-content">
-        <h2 class="heading">About <span>Me</span></h2>
-        <h3>Frontend Developer!</h3>
-        <p>
-          From A Personal point Of View , I Love Music And I Believe That It
-          Creates A Energy & Inspiration Necessary For Creation & Creativity In
-          Humans . Also , Exercise Is A Vital Part of My Life And As A Developer
-          , I Believe In The Importance Of Maintaining A Balance Between Mind &
-          Body .
-          <br />
-          <br />
-          My <b>💖 <span>Family</span> 💖</b> is The Main Reason I Live Happily
-          .
-        </p>
-        <a href="#" class="btn">Read More</a>
-      </div>
-    </section>
-
-    <!-- Services Section Design -->
-    <section class="services" id="services">
-      <h2 class="heading">Our <span>Services</span></h2>
-
-      <div class="services-container">
-        <div class="services-box">
-          <i class="bx bx-code-alt"></i>
-          <h3>Web Development</h3>
+      <!-- Home Section Design -->
+      <section class="home" id="home">
+        <div class="home-content">
+          <h3>Hello, Its Me</h3>
+          <h1>AshkanPoyber</h1>
+          <h3>And Im a <span class="multiple-text"></span></h3>
           <p>
-            I Have Been Working In The Field Of Website Design For Several Years
-            , Especially In The <b><span>Front-End</span></b> Part , And I Am
-            Very Diligent And Motivated In This Field .
+            Hello , I Am <b><span>MohammadReza Dalili</span></b> , An
+            Experienced Front-End Developer Interested In Design & Coding . I
+            Have An Education In Software Engineering And Several Years Of
+            Experience In Web Design . Also , I Have Ability In Backend
+            Programming .
+          </p>
+          <div class="social-media">
+            <a href="https://linkedin.com/in/mohammadreza-dalili"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://github.com/AshkanPoyber"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a href="https://instagram.com/mohammadreza__official__"
+              ><i class="bx bxl-instagram-alt"></i
+            ></a>
+            <a href="https://t.me/@Staff_Ashkan"
+              ><i class="bx bxl-telegram"></i
+            ></a>
+            <a href="mailto:AshkanDalili1381@gmail.com"
+              ><i class="bx bxl-gmail"></i
+            ></a>
+            <a href="https://youtube.com/AshkanPoyber"
+              ><i class="bx bxl-youtube"></i
+            ></a>
+            <a href="https://x.com/AshkanPoyber"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+          </div>
+          <a href="https://github.com/AshkanPoyber?tab=repositories" class="btn"
+            >See My Full Repository In GitHub</a
+          >
+        </div>
+
+        <div class="home-img">
+          <img src="Images/Home.png" alt="" />
+        </div>
+      </section>
+
+      <!-- About Section Design -->
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="Images/About.png" alt="" />
+        </div>
+
+        <div class="about-content">
+          <h2 class="heading">About <span>Me</span></h2>
+          <h3>Frontend Developer!</h3>
+          <p>
+            From A Personal point Of View , I Love Music And I Believe That It
+            Creates A Energy & Inspiration Necessary For Creation & Creativity
+            In Humans . Also , Exercise Is A Vital Part of My Life And As A
+            Developer , I Believe In The Importance Of Maintaining A Balance
+            Between Mind & Body .
+            <br />
+            <br />
+            My <b>💖 <span>Family</span> 💖</b> is The Main Reason I Live
+            Happily .
           </p>
           <a href="#" class="btn">Read More</a>
         </div>
+      </section>
 
-        <div class="services-box">
-          <i class="bx bxs-paint"></i>
-          <h3>Graphic Designer</h3>
-          <p>
-            Apart From Working In The Field Of Website Design, I Personally
-            Wanted To Learn <b><span>Graphic Design</span></b> And I Started In
-            This Way, And In Addition To Website Design, I Also Work In This
-            Field.
-          </p>
-          <a href="#" class="btn">Read More</a>
-        </div>
+      <!-- Services Section Design -->
+      <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
 
-        <div class="services-box">
-          <i class="bx bxs-videos"></i>
-          <h3>Content Creator</h3>
-          <p>
-            I Worked As A <b><span>Content Creator</span></b> In YouTube
-            Platform For A Short Time , But I Left It Due To Studying And
-            University , And I Hope To Shine In This Profession In The Very Near
-            Future .
-          </p>
-          <a href="#" class="btn">Read More</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skill Section Design -->
-    <section class="skills" id="skills">
-      <h2 class="heading">My <span>Skills</span></h2>
-
-      <div class="skill-main">
-        <div class="skill-left">
-          <h3><span>Technical</span> Skills</h3>
-          <div class="skill-bar">
-            <div class="info">
-              <p>HTML</p>
-              <p>95%</p>
-            </div>
-            <div class="bar">
-              <span class="html"></span>
-            </div>
-          </div>
-
-          <div class="skill-bar">
-            <div class="info">
-              <p>CSS</p>
-              <p>90%</p>
-            </div>
-            <div class="bar">
-              <span class="css"></span>
-            </div>
-          </div>
-
-          <div class="skill-bar">
-            <div class="info">
-              <p>JavaScript</p>
-              <p>70%</p>
-            </div>
-            <div class="bar">
-              <span class="javascript"></span>
-            </div>
-          </div>
-
-          <div class="skill-bar">
-            <div class="info">
-              <p>PHP</p>
-              <p>63%</p>
-            </div>
-            <div class="bar">
-              <span class="php"></span>
-            </div>
-          </div>
-
-          <div class="skill-bar">
-            <div class="info">
-              <p>SQL</p>
-              <p>76%</p>
-            </div>
-            <div class="bar">
-              <span class="sql"></span>
-            </div>
-          </div>
-
-          <div class="skill-bar">
-            <div class="info">
-              <p>React</p>
-              <p>20%</p>
-            </div>
-            <div class="bar">
-              <span class="react"></span>
-            </div>
-          </div>
-
-          <div class="skill-bar">
-            <div class="info">
-              <p>C#</p>
-              <p>32%</p>
-            </div>
-            <div class="bar">
-              <span class="csharp"></span>
-            </div>
-          </div>
-        </div>
-
-        <div class="skill-right">
-          <h3><span>Professional</span> Skills</h3>
-          <div class="professional">
-            <div class="box">
-              <div class="circle" data-dots="50" data-percent="80"></div>
-              <div class="text">
-                <big>80%</big>
-                <small>TeamWork</small>
-              </div>
-            </div>
-
-            <div class="box">
-              <div class="circle" data-dots="50" data-percent="100"></div>
-              <div class="text">
-                <big>100%</big>
-                <small>Creativity</small>
-              </div>
-            </div>
-
-            <div class="box">
-              <div class="circle" data-dots="50" data-percent="85"></div>
-              <div class="text">
-                <big>85%</big>
-                <small>Communication</small>
-              </div>
-            </div>
-
-            <div class="box">
-              <div class="circle" data-dots="50" data-percent="89"></div>
-              <div class="text">
-                <big>89%</big>
-                <small>Project Management</small>
-              </div>
-            </div>
-
-            <div class="box">
-              <div class="circle" data-dots="50" data-percent="100"></div>
-              <div class="text">
-                <big>100%</big>
-                <small>English Languages</small>
-              </div>
-            </div>
-
-            <div class="box">
-              <div class="circle" data-dots="50" data-percent="100"></div>
-              <div class="text">
-                <big>100%</big>
-                <small>OnTime</small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Educations Section Design -->
-    <section class="education" id="education">
-      <h2 class="heading">My <span>Educational</span> Records</h2>
-
-      <div class="timeline-items">
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">
-            From <span>2013</span> To <span>2022</span>
-          </div>
-          <div class="timeline-content">
-            <h3>English Language Class</h3>
+        <div class="services-container">
+          <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Development</h3>
             <p>
-              I attended English language classes for 8 years, during which I
-              learned valuable and educational content about the English
-              language. After 8 years of effort and diligence in this path, I
-              successfully obtained the
-              <b
-                ><b><span>FCE</span></b></b
-              >
-              certificate. Following that, I participated in the English
-              language teaching course for 6 months and I successfully obtained
-              the
-              <b
-                ><b><span>TTC</span></b></b
-              >
-              certificate .
+              I Have Been Working In The Field Of Website Design For Several
+              Years , Especially In The <b><span>Front-End</span></b> Part , And
+              I Am Very Diligent And Motivated In This Field .
             </p>
+            <a href="#" class="btn">Read More</a>
           </div>
-        </div>
 
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">
-            From <span>14 Jul 2023</span> To <span>16 Nov 2023</span>
-          </div>
-          <div class="timeline-content">
-            <h3>
-              International Computer Driving Licence ( <span> ICDL </span> )
-            </h3>
+          <div class="services-box">
+            <i class="bx bxs-paint"></i>
+            <h3>Graphic Designer</h3>
             <p>
-              I attended ICDL
-              <b
-                ><b>
-                  ( <span>International Computer Driving Licence</span> )
-                </b></b
-              >classes for 4 months, during which I learned valuable and
-              educational content in this field. After completing the course, I
-              took the main exam and successfully achieved a score of
-              <b
-                ><b> <span>100</span> </b></b
-              >. I obtained my ICDL certificate and am now qualified to teach
-              ICDL.
+              Apart From Working In The Field Of Website Design, I Personally
+              Wanted To Learn <b><span>Graphic Design</span></b> And I Started
+              In This Way, And In Addition To Website Design, I Also Work In
+              This Field.
             </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+
+          <div class="services-box">
+            <i class="bx bxs-videos"></i>
+            <h3>Content Creator</h3>
+            <p>
+              I Worked As A <b><span>Content Creator</span></b> In YouTube
+              Platform For A Short Time , But I Left It Due To Studying And
+              University , And I Hope To Shine In This Profession In The Very
+              Near Future .
+            </p>
+            <a href="#" class="btn">Read More</a>
           </div>
         </div>
+      </section>
 
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">
-            From <span>4 Feb 2022</span> To <span>14 Feb 2024</span>
+      <!-- Skill Section Design -->
+      <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skill-main">
+          <div class="skill-left">
+            <h3><span>Technical</span> Skills</h3>
+            <div class="skill-bar">
+              <div class="info">
+                <p>HTML</p>
+                <p>95%</p>
+              </div>
+              <div class="bar">
+                <span class="html"></span>
+              </div>
+            </div>
+
+            <div class="skill-bar">
+              <div class="info">
+                <p>CSS</p>
+                <p>90%</p>
+              </div>
+              <div class="bar">
+                <span class="css"></span>
+              </div>
+            </div>
+
+            <div class="skill-bar">
+              <div class="info">
+                <p>JavaScript</p>
+                <p>70%</p>
+              </div>
+              <div class="bar">
+                <span class="javascript"></span>
+              </div>
+            </div>
+
+            <div class="skill-bar">
+              <div class="info">
+                <p>PHP</p>
+                <p>63%</p>
+              </div>
+              <div class="bar">
+                <span class="php"></span>
+              </div>
+            </div>
+
+            <div class="skill-bar">
+              <div class="info">
+                <p>SQL</p>
+                <p>76%</p>
+              </div>
+              <div class="bar">
+                <span class="sql"></span>
+              </div>
+            </div>
+
+            <div class="skill-bar">
+              <div class="info">
+                <p>React</p>
+                <p>20%</p>
+              </div>
+              <div class="bar">
+                <span class="react"></span>
+              </div>
+            </div>
+
+            <div class="skill-bar">
+              <div class="info">
+                <p>C#</p>
+                <p>32%</p>
+              </div>
+              <div class="bar">
+                <span class="csharp"></span>
+              </div>
+            </div>
           </div>
-          <div class="timeline-content">
-            <h3>Associate Degree ( <span>University</span> )</h3>
-            <p>
-              After finishing high school, I participated in the national
-              university entrance exam and passed it on the
-              <b
-                ><b><span>first</span></b></b
-              >
-              attempt. I was admitted to the
-              <b
-                ><b
-                  ><span
-                    >public university of Shahid Shamsipour in Tehran</span
+
+          <div class="skill-right">
+            <h3><span>Professional</span> Skills</h3>
+            <div class="professional">
+              <div class="box">
+                <div class="circle" data-dots="50" data-percent="80"></div>
+                <div class="text">
+                  <big>80%</big>
+                  <small>TeamWork</small>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="circle" data-dots="50" data-percent="100"></div>
+                <div class="text">
+                  <big>100%</big>
+                  <small>Creativity</small>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="circle" data-dots="50" data-percent="85"></div>
+                <div class="text">
+                  <big>85%</big>
+                  <small>Communication</small>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="circle" data-dots="50" data-percent="89"></div>
+                <div class="text">
+                  <big>89%</big>
+                  <small>Project Management</small>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="circle" data-dots="50" data-percent="100"></div>
+                <div class="text">
+                  <big>100%</big>
+                  <small>English Languages</small>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="circle" data-dots="50" data-percent="100"></div>
+                <div class="text">
+                  <big>100%</big>
+                  <small>OnTime</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Educations Section Design -->
+      <section class="education" id="education">
+        <h2 class="heading">My <span>Educational</span> Records</h2>
+
+        <div class="timeline-items">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">
+              From <span>2013</span> To <span>2022</span>
+            </div>
+            <div class="timeline-content">
+              <h3>English Language Class</h3>
+              <p>
+                I attended English language classes for 8 years, during which I
+                learned valuable and educational content about the English
+                language. After 8 years of effort and diligence in this path, I
+                successfully obtained the
+                <b
+                  ><b><span>FCE</span></b></b
+                >
+                certificate. Following that, I participated in the English
+                language teaching course for 6 months and I successfully
+                obtained the
+                <b
+                  ><b><span>TTC</span></b></b
+                >
+                certificate .
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">
+              From <span>14 Jul 2023</span> To <span>16 Nov 2023</span>
+            </div>
+            <div class="timeline-content">
+              <h3>
+                International Computer Driving Licence ( <span> ICDL </span> )
+              </h3>
+              <p>
+                I attended ICDL
+                <b
+                  ><b>
+                    ( <span>International Computer Driving Licence</span> )
+                  </b></b
+                >classes for 4 months, during which I learned valuable and
+                educational content in this field. After completing the course,
+                I took the main exam and successfully achieved a score of
+                <b
+                  ><b> <span>100</span> </b></b
+                >. I obtained my ICDL certificate and am now qualified to teach
+                ICDL.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">
+              From <span>4 Feb 2022</span> To <span>14 Feb 2024</span>
+            </div>
+            <div class="timeline-content">
+              <h3>Associate Degree ( <span>University</span> )</h3>
+              <p>
+                After finishing high school, I participated in the national
+                university entrance exam and passed it on the
+                <b
+                  ><b><span>first</span></b></b
+                >
+                attempt. I was admitted to the
+                <b
+                  ><b
+                    ><span
+                      >public university of Shahid Shamsipour in Tehran</span
+                    ></b
                   ></b
-                ></b
-              >
-              and started my studies as a
-              <b
-                ><b><span>Computer ~ software</span></b></b
-              >
-              student at this university. After completing 4 semesters, I
-              achieved high grades and earned my
-              <b
-                ><b><span>Associate Degree</span></b></b
-              >
-              in Computer ~ software , graduating from this field & grade.
-            </p>
+                >
+                and started my studies as a
+                <b
+                  ><b><span>Computer ~ software</span></b></b
+                >
+                student at this university. After completing 4 semesters, I
+                achieved high grades and earned my
+                <b
+                  ><b><span>Associate Degree</span></b></b
+                >
+                in Computer ~ software , graduating from this field & grade.
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">
-            From <span>19 Feb 2024</span> To <span>.....</span>
-          </div>
-          <div class="timeline-content">
-            <h3>Bachelor's Degree ( <span>University</span> )</h3>
-            <p>
-              After graduating with an Associate Degree, I was accepted into the
-              Bachelor's program on the first attempt due to my
-              <b
-                ><b><span>High GPA</span></b></b
-              >. I was admitted to the
-              <b
-                ><b
-                  ><span
-                    >public university of Shahid Shamsipour in Tehran</span
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">
+              From <span>19 Feb 2024</span> To <span>.....</span>
+            </div>
+            <div class="timeline-content">
+              <h3>Bachelor's Degree ( <span>University</span> )</h3>
+              <p>
+                After graduating with an Associate Degree, I was accepted into
+                the Bachelor's program on the first attempt due to my
+                <b
+                  ><b><span>High GPA</span></b></b
+                >. I was admitted to the
+                <b
+                  ><b
+                    ><span
+                      >public university of Shahid Shamsipour in Tehran</span
+                    ></b
                   ></b
-                ></b
-              >
-              and started my studies as a student in the
-              <b
-                ><b><span>Bachelor's grade</span></b></b
-              >
-              in
-              <b
-                ><b><span>Software Engineering Field</span></b></b
-              >
-              at this university. I have currently completed
-              <b
-                ><b><span>1</span></b></b
-              >
-              semester and am striving to achieve good grades in this field and
-              program to advance to higher educational levels
-            </p>
+                >
+                and started my studies as a student in the
+                <b
+                  ><b><span>Bachelor's grade</span></b></b
+                >
+                in
+                <b
+                  ><b><span>Software Engineering Field</span></b></b
+                >
+                at this university. I have currently completed
+                <b
+                  ><b><span>1</span></b></b
+                >
+                semester and am striving to achieve good grades in this field
+                and program to advance to higher educational levels
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Portfolio Section Design -->
-    <section class="portfolio" id="portfolio">
-      <h2 class="heading">Latest <span>Project</span></h2>
+      <!-- Portfolio Section Design -->
+      <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
 
-      <div class="portfolio-container">
-        <div class="portfolio-box">
-          <img src="Images/Portfolio1.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Portfolio</h4>
-            <p>Personal Portfolio Page Design To Introduce Myself</p>
-            <a href="https://github.com/AshkanPoyber/AshkanPoyber.github.io"
-              ><i class="bx bx-link-external"></i
-            ></a>
+        <div class="portfolio-container">
+          <div class="portfolio-box">
+            <img src="Images/Portfolio1.jpg" alt="" />
+            <div class="portfolio-layer">
+              <h4>Portfolio</h4>
+              <p>Personal Portfolio Page Design To Introduce Myself</p>
+              <a href="https://github.com/AshkanPoyber/AshkanPoyber.github.io"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="Images/Portfolio2.jpg" alt="" />
+            <div class="portfolio-layer">
+              <h4>PoyLearn</h4>
+              <p>
+                Designing A Professional Educational Website For A University
+                Project
+              </p>
+              <a href="https://github.com/AshkanPoyber/PoyLearn"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="Images/Portfolio3.jpg" alt="" />
+            <div class="portfolio-layer">
+              <h4>Paint App</h4>
+              <p>
+                Create A Simple Drawing & Paint App Similar To Windows Paint App
+              </p>
+              <a href="https://github.com/AshkanPoyber/Paint-App"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="Images/Portfolio4.jpg" alt="" />
+            <div class="portfolio-layer">
+              <h4>Ecommerce Website</h4>
+              <p>
+                Designing A Store Website Similar To Digikala For An University
+                Project
+              </p>
+              <a href="https://github.com/AshkanPoyber/PoyberPlus"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="Images/Portfolio5.jpg" alt="" />
+            <div class="portfolio-layer">
+              <h4>Alarm App</h4>
+              <p>
+                Creating And Developing An Alarm Program That You Can Wake Up
+                From Your Sweet Sleep :)
+              </p>
+              <a href="https://github.com/AshkanPoyber/Alarm-App"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="Images/Portfolio6.jpg" alt="" />
+            <div class="portfolio-layer">
+              <h4>Calendar With ToDo List</h4>
+              <p>
+                App That You Can Schedule For Any Day Or The Whole Year
+                According To Your Circumstances
+              </p>
+              <a href="https://github.com/AshkanPoyber/Calendar-With-Todo-List"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
           </div>
         </div>
+      </section>
 
-        <div class="portfolio-box">
-          <img src="Images/Portfolio2.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>PoyLearn</h4>
-            <p>
-              Designing A Professional Educational Website For A University
-              Project
-            </p>
-            <a href="https://github.com/AshkanPoyber/PoyLearn"
-              ><i class="bx bx-link-external"></i
-            ></a>
+      <!-- Contact Section Design -->
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form>
+          <div class="input-box">
+            <input type="text" name="name" placeholder="Full Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
           </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="Images/Portfolio3.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Paint App</h4>
-            <p>
-              Create A Simple Drawing & Paint App Similar To Windows Paint App
-            </p>
-            <a href="https://github.com/AshkanPoyber/Paint-App"
-              ><i class="bx bx-link-external"></i
-            ></a>
+          <div class="input-box">
+            <input
+              type="text"
+              name="mobile"
+              placeholder="Mobile Number"
+              required
+            />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Email Subject"
+              required
+            />
           </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="Images/Portfolio4.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Ecommerce Website</h4>
-            <p>
-              Designing A Store Website Similar To Digikala For An University
-              Project
-            </p>
-            <a href="https://github.com/AshkanPoyber/PoyberPlus"
-              ><i class="bx bx-link-external"></i
-            ></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="Images/Portfolio5.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Alarm App</h4>
-            <p>
-              Creating And Developing An Alarm Program That You Can Wake Up From
-              Your Sweet Sleep :)
-            </p>
-            <a href="https://github.com/AshkanPoyber/Alarm-App"
-              ><i class="bx bx-link-external"></i
-            ></a>
-          </div>
-        </div>
-
-        <div class="portfolio-box">
-          <img src="Images/Portfolio6.jpg" alt="" />
-          <div class="portfolio-layer">
-            <h4>Calendar With ToDo List</h4>
-            <p>
-              App That You Can Schedule For Any Day Or The Whole Year According
-              To Your Circumstances
-            </p>
-            <a href="https://github.com/AshkanPoyber/Calendar-With-Todo-List"
-              ><i class="bx bx-link-external"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section Design -->
-    <section class="contact" id="contact">
-      <h2 class="heading">Contact <span>Me!</span></h2>
-
-      <form>
-        <div class="input-box">
-          <input type="text" name="name" placeholder="Full Name" required />
-          <input
-            type="email"
-            name="email"
-            placeholder="Email Address"
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
             required
-          />
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </form>
+      </section>
+
+      <!-- Footer Design -->
+      <footer class="footer">
+        <div class="footer-text">
+          <p>
+            Copyright &copy; 2025 By <b>Ashkan<span>Poyber</span></b> | All
+            Rights Reserved.
+          </p>
         </div>
-        <div class="input-box">
-          <input
-            type="text"
-            name="mobile"
-            placeholder="Mobile Number"
-            required
-          />
-          <input
-            type="text"
-            name="subject"
-            placeholder="Email Subject"
-            required
-          />
+
+        <div class="footer-iconTop">
+          <a href="#home"><i class="bx bxs-chevrons-up"></i></a>
         </div>
-        <textarea
-          name="message"
-          cols="30"
-          rows="10"
-          placeholder="Your Message"
-          required
-        ></textarea>
-        <input type="submit" value="Send Message" class="btn" />
-      </form>
-    </section>
+      </footer>
 
-    <!-- Footer Design -->
-    <footer class="footer">
-      <div class="footer-text">
-        <p>
-          Copyright &copy; 2025 By <b>Ashkan<span>Poyber</span></b> | All Rights
-          Reserved.
-        </p>
-      </div>
+      <!-- Scroll Reveal -->
+      <script src="https://unpkg.com/scrollreveal"></script>
 
-      <div class="footer-iconTop">
-        <a href="#home"><i class="bx bxs-chevrons-up"></i></a>
-      </div>
-    </footer>
+      <!-- Typed JS -->
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-    <!-- Scroll Reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- Typed JS -->
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
-    <!-- Custom JS -->
-    <script src="index.js"></script>
-  </body>
+      <!-- Custom JS -->
+      <script src="index.js"></script>
+    </body>
+  </html>
 </html>
