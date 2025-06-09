@@ -6,10 +6,6 @@
 
 [![Ashkan Poyber](https://img.shields.io/badge/Ashkan-Poyber-e4181c.svg?labelColor=0000ff)](#)
 [![Made in Iran](https://img.shields.io/badge/made_in-iran-ffd700.svg?labelColor=0057b7)](https://github.com/AshkanPoyber)
-<a href="https://www.youtube.com/AcerMRD"><img src="https://img.shields.io/badge/YouTube-Channel-FF3333.svg?logo=youtube&logoColor=FF3333"></a>
-[![Release](https://img.shields.io/github/release/AshkanPoyber/PoyLearn.svg)](https://github.com/AshkanPoyber/PoyLearn/releases)
-
-
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> AshkanPoyber | AboutMe | Portfolio
 🛑 Please Pay Attention , This Single Page Website ( Portfolio ) Is Designed To Showcase My Experiences And Talents. If You're Looking For My Other Projects Then [Click Here!](https://github.com/AshkanPoyber?tab=repositories)
