@@ -39,7 +39,7 @@ https://AshkanPoyber.github.io
 <br>
 💢 Add Portfolio Page
 <br>
-💢 Add Contact Page
+💢 Add Contact Page ( With EmailJS Feature ~ Users Can Send Me An Email In This Section 👌 )
 <br>
 💢 Find Best Website To Support New And Beautiful Icons For Some Sections ~ Of Course In Home Section
 <br>
